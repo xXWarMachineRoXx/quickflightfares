@@ -10,7 +10,7 @@ define('FROM_LOCATION_CODE', 'MEX');
    document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Airfaremoss. Get the best fairs With US - call us @ <a href='tel:<?= TFN ?>";'><?= TFN ?></a>    
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
-   style="background-image: url('frontend/images/aeromexico.png'); background-postion: 5px; background-size: cover;">
+   style="background-image: url('frontend/images/aeromexico.jpg'); background-postion: 5px; background-size: cover;">
    <?php include 'includes/api-banner.php'; ?>
 </div>
 <div class="whysky mb-4 mb-md-5">
