@@ -444,6 +444,35 @@ class MainController extends MY_Controller
     }
 
     // Airlines Pages
+
+    
+    public function british_airways()
+    {
+        $this->load_airline_view("british-airways");
+    }
+
+    public function central_mountain_air()
+    {
+      $this->load_airline_view('central-mountain-air');
+    }
+    public function japan_airlines()
+    {
+        $this->load_airline_view("japan-airlines");
+    }
+
+    public function asiana_airlines()
+    {
+       $this->load_airline_view('asiana-airlines');
+    }
+    public function virgin_australia()
+    {
+      $this->load_airline_view("virgin-australia");
+    }
+    public function virgin_atlantic_airways()
+    {
+        $this->load_airline_view("virgin-atlantic-airways");
+        
+    }
     public function united_flights()
     {
         $this->load_airline_view("united-flights");
@@ -477,9 +506,6 @@ class MainController extends MY_Controller
     {
         $this->load_airline_view("air-france");
     }
-
-
-
     public function spirit_airlines()
     {
         $this->load_airline_view("spirit-airlines");
@@ -550,58 +576,6 @@ class MainController extends MY_Controller
         
     }
 
-    public function disclaimer_page()
-    {
-        $data = get_data("disclaimer.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("disclaimer");
-        $this->load->view("includes/front_footer");
-    }
-
-    public function british_airways()
-    {
-        $data = get_data("british-airways.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("british-airways");
-        $this->load->view("includes/front_footer");
-    }
-
-    public function central_mountain_air()
-    {
-        $data = get_data("central-mountain-air.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("central-mountain-air");
-        $this->load->view("includes/front_footer");
-    }
-    public function japan_airlines()
-    {
-        $data = get_data("japan-airlines.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("japan-airlines");
-        $this->load->view("includes/front_footer");
-    }
-
-    public function asiana_airlines()
-    {
-        $data = get_data("asiana-airlines.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("asiana-airlines");
-        $this->load->view("includes/front_footer");
-    }
-    public function virgin_australia()
-    {
-        $data = get_data("virgin-australia.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("virgin-australia");
-        $this->load->view("includes/front_footer");
-    }
-    public function virgin_atlantic_airways()
-    {
-        $data = get_data("virgin-atlantic-airways.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("virgin-atlantic-airways");
-        $this->load->view("includes/front_footer");
-    }
     public function qantas_airways()
     {
         $this->load_airline_view("qantas-airways");
@@ -696,6 +670,14 @@ class MainController extends MY_Controller
         $this->load->view("includes/front_footer");
     }
 
+    public function disclaimer_page()
+    {
+        $data = get_data("disclaimer.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("disclaimer");
+        $this->load->view("includes/front_footer");
+    }
+
 
     public function cheap_flight_portland_to_denver()
     {
@@ -704,6 +686,8 @@ class MainController extends MY_Controller
         $this->load->view("city_pairs/cheap-flight-portland-to-denver");
         $this->load->view("includes/front_footer");
     }
+
+    // Destination Pairs
     public function cheap_flight_portland_to_houston()
     {
         $data = get_data("cheap-flight-portland-to-houston.php")[0];
