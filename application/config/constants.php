@@ -27,10 +27,20 @@ defined('ADDRESS') or define('ADDRESS', "117 Windwoods Drive, Collegeville PA 19
 defined('D_DATE') or define('D_DATE', "2023-06-15");
 defined('R_DATE') or define('R_DATE', "2023-07-30");
 
-define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-" . ($middleDay + 1))) . " - " . date('d M', strtotime("$currentYear-$currentMonth-" . cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear))));
+// define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-" . ($middleDay + 1))) . " - " . date('d M', strtotime("$currentYear-$currentMonth-" . cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear))));
 
-defined('DR_DATE') or define('DR_DATE', OfferDateRange);
 
+// Get today's date
+$currentDate = date('Y-m-d');
+
+// Calculate the OfferDateRange for the next 7 to 14 days
+$startDate = date('d M', strtotime($currentDate . ' +7 days'));
+$endDate = date('d M', strtotime($currentDate . ' +14 days'));
+
+// Define the OfferDateRange
+define('OFFER_DATE_RANGE', $startDate . " - " . $endDate);
+
+defined('DR_DATE') or define('DR_DATE', OFFER_DATE_RANGE);
 
 
 defined('GKEY') or define('GKEY', "224481998806-741qi0erbql7dl463r4v36q4q5bfln66.apps.googleusercontent.com");
