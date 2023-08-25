@@ -50,9 +50,9 @@
 <h4>Quick Links</h4>
 <ul>
 <li><a href="<?= base_url() ?>">Home</a></li>
-<li><a href="<?= base_url() ?>about-us">About Us</a></li>
-<li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
-<li class="d-lp"><a href="<?= base_url() ?>site-map">Site Map </a></li>
+<li><a href="<?= base_url() ?>/index.php/about-us">About Us</a></li>
+<li><a href="<?= base_url() ?>/index.php/contact-us">Contact Us</a></li>
+<li class="d-lp"><a href="<?= base_url() ?>/index.php/site-map">Site Map </a></li>
 </ul>
 </div>
 <div class="clearfix"></div>
