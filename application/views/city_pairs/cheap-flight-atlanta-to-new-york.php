@@ -28,7 +28,7 @@ if ($currentDay <= $middleDay) {
    document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Airfaremoss. Get the best fairs With US - call us @ <?= TFN ?>";   
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
-   style="background-image: url('/frontend/images/destination.avif'); background-position: 60% center;background-no-repeat: no-repeat; background-size: cover;">
+   style="background-image: url('frontend/images/destination.avif'); background-position: 60% center;background-no-repeat: no-repeat; background-size: cover;">
    <?php include 'includes/api-banner.php'; ?>
 
 </div>
