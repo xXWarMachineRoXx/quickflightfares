@@ -37,11 +37,11 @@
                     <div class="ftr-sl">
                         <h4>Our policy</h4>
                         <ul>
-                            <li><a href="<?= base_url() ?>/index.php/privacy-policy">Privacy Policy</a></li>
-                            <li><a href="<?= base_url() ?>/index.php/terms-conditions">Terms & Conditions </a></li>
-                            <li> <a href="/index.php/cancellation-and-refund-policy">Cancellation & Refund Policy</a>
+                            <li><a href="<?= base_url() ?>privacy-policy">Privacy Policy</a></li>
+                            <li><a href="<?= base_url() ?>terms-conditions">Terms & Conditions </a></li>
+                            <li> <a href="cancellation-and-refund-policy">Cancellation & Refund Policy</a>
                             </li>
-                            <li><a href="<?= base_url() ?>/index.php/disclaimer">Disclaimer</a></li>
+                            <li><a href="<?= base_url() ?>disclaimer">Disclaimer</a></li>
 
                             <!--<li ><a href="<?= base_url() ?>refund-policy">Refund Policy </a></li>
 <li ><a href="<?= base_url() ?>discount-and-savings-claim">Discount and savings claim </a></li>-->
@@ -53,9 +53,9 @@
                         <h4>Quick Links</h4>
                         <ul>
                             <li><a href="<?= base_url() ?>">Home</a></li>
-                            <li><a href="<?= base_url() ?>/index.php/about-us">About Us</a></li>
-                            <li><a href="<?= base_url() ?>/index.php/contact-us">Contact Us</a></li>
-                            <li class="d-lp"><a href="<?= base_url() ?>/index.php/site-map">Site Map </a></li>
+                            <li><a href="<?= base_url() ?>about-us">About Us</a></li>
+                            <li><a href="<?= base_url() ?>contact-us">Contact Us</a></li>
+                            <li class="d-lp"><a href="<?= base_url() ?>site-map">Site Map </a></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
