@@ -12,9 +12,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |
 */
 defined('SHOW_DEBUG_BACKTRACE') or define('SHOW_DEBUG_BACKTRACE', TRUE);
-defined('LLC') or define('LLC', "FAREMOSS");
-defined('WEBSITE') or define('WEBSITE', "travefarebuzz.com");
-defined('TFN') or define('TFN', "+1 888-811-2217");
+defined('LLC') or define('LLC', "QFF");
+defined('WEBSITE') or define('WEBSITE', "quickflightfares.com");
+defined('TFN') or define('TFN', "+1 888-205-2999");
 defined('MAIL') or define('MAIL', "info@quickflightfares.com");
 defined('EMAIL') or define('EMAIL', "info@quickflightfares.com");
 defined('EMAIL_B') or define('EMAIL_B', "info@quickflightfares.com");

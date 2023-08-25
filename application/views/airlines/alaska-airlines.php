@@ -1,1 +1,240 @@
-<script>   document.title = "Cheap flight tickets,  Online Tickets  - gofortaxis";      document.getElementsByTagName('meta')["keywords"].content = "Airline Booking in USA, Online Tickets Booking USA, Airline Ticket Booking Services, Flight Reservation USA, Aeroplane Ticket Booking, Flight Ticket Rates in USA, Flight Ticket Online, Airline Ticket Prices in USA, Airfare Prices in USA, Air Flight Tickets";      document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on gofortaxis. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on gofortaxis. Book Now! For Booking Call @ <?= TFN ?>.";   </script><link rel="stylesheet" href="https://www.gofortaxis.com/frontend/bootsrap_V5/bootstrap.min.css"><div class="wrap-inpg flt-udr49 jetblue-flight us-airlines inxbanners"><div id="header-wrapper" class="wrap-inpg flt-udr49 jetblue-flight us-airlines inxbanners header-slider frsld fu49 jtb pb-lg-5 pb-3"  style="background-image: url('frontend/imgl/gft-bg02.jpg') !important;     background-position: bottom !important;"> <?php include 'includes/api-banner.php'; ?>  </div>   <!-- New Section added --> <div class="us-festival my-lg-4 my-3"> <?php include 'includes/deals.php'; ?></div>     <div class="container mb-4">      <div class="flight-list">         <div class="headingtxt mb-3">               <h3 class="headh3 txt-ff"><span>Alaska Airlines</span> Flight Deals <small>(Round Trip)</small> </h3>               <span class="mxw lead text-center center-block txt-ff" data-aos="fade-down"></span>            </div>         <div class="row">            <div class="col-lg-4 col-md-4 col-12 form-group">               <div class="flight-status">                  <a onclick="nav()" href="https://www.gofortaxis.com/Result?submitForm=flights&trip=round&depart=NYC&arrival=ORL&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&submit=Search+Flight">                     <div class="row align-items-center">                        <div class="flex-fill col-lg-3 col-3">                           <img src="/frontend/imgl/orlando.jpg" class="img-responsive" alt="find cheap flight for New York to Las Orlando">                        </div>                        <div class="col-lg-6 col-6">                           <div class="row">                              <div class="flex-fill">                                 <span>New York (NYC)</span>                              </div>                              <div class="flex-fill arrowfts">                                 <span>⇌</span>                              </div>                              <div class="flex-fill">                                 <span>Orlando (ORL)</span>                                 <small></small>                              </div>                           </div>                           <small><?= DR_DATE ?></small>                        </div>                        <div class="flex-fill col-lg-3 col-3">                           <strong>$96<sup>*</sup></strong>                           <button class="bknw">Book Now</button>                        </div>                     </div>                  </a>               </div>            </div>            <div class="col-lg-4 col-md-4 col-12 form-group ">               <div class="flight-status">                  <a onclick="nav()" href="https://www.gofortaxis.com/Result?depart=DFW&arrival=LAS&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">                     <div class="row align-items-center">                        <div class="flex-fill col-lg-3 col-3">                           <img src="/frontend/imgl/las-vegas.jpg" class="img-responsive" alt="find cheap flight for Dallas to Las Vegas">                        </div>                        <div class="col-lg-6 col-6">                           <div class="row">                              <div class="flex-fill">                                 <span>Dallas (DFW)</span>                              </div>                              <div class="flex-fill arrowfts">                                 <span>⇌</span>                              </div>                              <div class="flex-fill">                                 <span>Las Vegas (LAS)</span>                              </div>                           </div>                           <small><?= DR_DATE ?></small>                        </div>                        <div class="flex-fill col-lg-3 col-3">                           <strong>$141<sup>*</sup></strong>                           <button class="bknw">Book Now</button>                        </div>                     </div>                  </a>               </div>            </div>            <div class="col-lg-4 col-md-4 col-12 form-group">               <div class="flight-status">                  <a onclick="nav()" href="https://www.gofortaxis.com/Result?depart=LAX&arrival=OGG&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">                     <div class="row align-items-center">                        <div class="flex-fill col-lg-3 col-3">                           <img src="/frontend/imgl/kahului1.png" class="img-responsive" alt="find cheap flight for Los Angeles to Kahului">                        </div>                        <div class="col-lg-6 col-6">                           <div class="row">                              <div class="flex-fill">                                 <span>Los Angeles (LAX)</span>                              </div>                              <div class="flex-fill arrowfts">                                 <span>⇌</span>                              </div>                              <div class="flex-fill">                                 <span>Kahului (OGG)</span>                              </div>                           </div>                           <small><?= DR_DATE ?></small>                        </div>                        <div class="flex-fill col-lg-3 col-3">                           <strong>$281<sup>*</sup></strong>                           <button class="bknw">Book Now</button>                        </div>                     </div>                  </a>               </div>            </div>            <div class="col-lg-4 col-md-4 col-12 form-group">               <div class="flight-status">                  <a onclick="nav()" href="https://www.gofortaxis.com/Result?depart=LAX&arrival=HNL&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">                     <div class="row align-items-center">                        <div class="flex-fill col-lg-3 col-3">                           <img src="/frontend/imgl/honolulu.png" class="img-responsive" alt="Find Cheap Los Angeles for Honolulu">                        </div>                        <div class="col-lg-6 col-6">                           <div class="row">                              <div class="flex-fill">                                 <span>Los Angeles (LAX)</span>                              </div>                              <div class="flex-fill arrowfts">                                 <span>⇌</span>                              </div>                              <div class="flex-fill">                                 <span>Honolulu (HNL)</span>                              </div>                           </div>                           <small><?= DR_DATE ?></small>                        </div>                        <div class="flex-fill col-lg-3 col-3">                           <strong>$268<sup>*</sup></strong>                           <button class="bknw">Book Now</button>                        </div>                     </div>                  </a>               </div>            </div>            <div class="col-lg-4 col-md-4 col-12 form-group">               <div class="flight-status">                  <a onclick="nav()" href="https://www.gofortaxis.com/Result?submitForm=flights&trip=round&depart=OAK&arrival=HNL&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&depart-multi%5B%5D=&arrival-multi%5B%5D=&departOn%5B%5D%5D=2022-02-05&depart-multi%5B%5D=&arrival-multi%5B%5D=&departOn%5B%5D=2022-02-07&depart-multi%5B%5D=&arrival-multi%5B%5D=&departOn%5B%5D=2022-02-11&adult=1&child=0&infant=0&cabin=ECONOMY&submit=Search+Flight">                     <div class="row align-items-center">                        <div class="flex-fill col-lg-3 col-3">                           <img src="/frontend/imgl/honolulu4.png" class="img-responsive" alt="find cheap flight for Oakland to Honolulu">                        </div>                        <div class="col-lg-6 col-6">                           <div class="row">                              <div class="flex-fill">                                 <span>Oakland (OAK)</span>                              </div>                              <div class="flex-fill arrowfts">                                 <span>⇌</span>                              </div>                              <div class="flex-fill">                                 <span>Honolulu (HNL)</span>                              </div>                           </div>                           <small><?= DR_DATE ?></small>                        </div>                        <div class="flex-fill col-lg-3 col-3">                           <strong>$293<sup>*</sup></strong>                           <button class="bknw">Book Now</button>                        </div>                     </div>                  </a>               </div>            </div>            <div class="col-lg-4 col-md-4 col-12 form-group">               <div class="flight-status">                  <a onclick="nav()" href="https://www.gofortaxis.com/Result?depart=NYC&arrival=ATL&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">                     <div class="row align-items-center">                        <div class="flex-fill col-lg-3 col-3">                           <img src="/frontend/imgl/atlanta.jpg" class="img-responsive" alt="find cheap flight for New York/Newark to Atlanta">                        </div>                        <div class="col-lg-6 col-6">                           <div class="row">                              <div class="flex-fill">                                 <span>New York (NYC)</span>                              </div>                              <div class="flex-fill arrowfts">                                 <span>⇌</span>                              </div>                              <div class="flex-fill">                                 <span>Atlanta (ATL)</span>                              </div>                           </div>                           <small><?= DR_DATE ?></small>                        </div>                        <div class="flex-fill col-lg-3 col-3">                           <strong>$149<sup>*</sup></strong>                           <button class="bknw">Book Now</button>                        </div>                     </div>                  </a>               </div>            </div>         </div>      </div>   </div>   <div class="about-spirit-airlines content-wrap my-4">      <div class="container">         <div class="headingtxt">            <div class="headh3 txt-ff m-0">Alaska Airlines (Major Airline)</div>         </div>         <h3>Alaska airlines</h3>         <p>The most successful strategies for getting inexpensive Alaska Airlines flights are provided by Tour Cruiser. Throughout the year, utilize our simple reservation tool to look for daily departures and convenient departure points. You can rely on Tour Cruiser to help you find low-cost flights at any time.</p>         <p>Our booking engine is simple to use; simply enter your holiday places and dates, and it will do the rest! If your vacation plans are flexible, adjusting your flight itineraries will help you find even better discounts. Look into connecting flights to see if you can save even more money.</p>         <h3>Alaska Airlines: An Overview</h3>         <p>Alaska Airlines is a domestic airline based in the United States. Its headquarters and core are located at Seattle Tacoma International Airport. Anchorage acts as a secondary hub for the airline. Alaska Airlines offers three types of service: Main Cabin, Premium Class, and First Class.</p>         <p>Alaska Airlines has risen to prominence on the West Coast and in the Pacific Northwest, receiving national attention in the process. It's also known for its great onboard service, ample legroom, low basic economy fares, and lightning-fast in-flight Wi-Fi.</p>         <div class="all-content">            <h3>Alaska Airlines' baggage policy</h3>            <p>Baggage fees are an important source of revenue for airlines, bringing in billions annually. Moreover, most airlines have a complicated system for calculating luggage costs, with charges varying depending on where you're going, the type of ticket you bought, and other considerations. Yet, this is not the case with Alaska Airlines luggage fees.</p>            <p>During high demand periods, Alaska Airlines may limit the amount of baggage that each traveler can check. Specialist checked baggage, such as strollers, car seats, and mobility aids, is exempt from baggage fees.</p>            <h3>What distinguishes Alaska Airlines from other airlines?</h3>            <p>Alaska Airlines greets you warmly and promises to 'get you there.' You can travel to any destination you want with this carrier's inexpensive costs. Take a look at Tour Cruiser for discounts available and great deals on Alaska Airlines flights. Convenient flight scheduling and operational punctuality are the two defining traits of this airline. Customer satisfaction and safety are of the utmost importance.</p>            <h3>What Kinds of Services Should You Expect?</h3>            <p>On Alaska Airlines, meals can be purchased. They're delicious, and they're influenced by Tom Douglas, the great chef. Everything from vital fruits to cheese platters, exquisite snacks to artisan liquors will be available to you. There is also a complimentary food and beverage option available throughout the tour.</p>            <p>Wi-Fi is available on most airlines for a small cost. On the shorter internal flights, there are no centre available seats for your comfort. Free beers and wines are served with the flight. 'Alaska Entertainment Beyond' is the name of the in-flight entertainment system. You can watch movies and television on your own device or on the in-flight entertainment tablets.</p>            <p>Power plugs are available at each seat in the Main Cabin on most airlines, allowing passengers to keep their electronic devices charged. In Premium Class, you'll have more legroom. The drinks are complimentary. In First Class, the seats are fairly big. A dedicated flight attendant is included in this type of service. Priority check-in and quicker luggage delivery at the destination are two of the advantages of First Class travel.</p>            <h3>Alaska Airlines miles</h3>            <p>Through Alaska Airlines' reward programme, miles can be redeemed for flights on Alaska Airlines and its partner airlines. It is entirely free to join the Alaska Airlines Mileage Plan. You can apply for elite status after travelling enough in a calendar year. Elite level is related with free enhancements and other rewards.</p>            <p class="px-3">               <strong>Note</strong><br>               Alaska Airlines is a popular airline among passengers. At the heart of this, Alaska has been recognized for its pleasant, helpful airline staff and quality customer service workers.            </p>         </div>         <a class="readmore stmpbtn" href="#">Read more...</a>	      </div>   </div>     <!-- Modal -->   <div class="modal fade best-dealx" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">      <div class="modal-dialog modal-dialog-centered modal-md" role="document">         <div class="modal-content">            <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">            <span aria-hidden="true">&times;</span>            </button>            <div class="modal-body">              <div class="tc-offer-card01">               <a href="tel:+1-855-776-8168" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">                  <div class="row align-items-top align-items-center mb-0">                     <div class="col-lg-4 col-12">                        <div class="tc-child-div-f">                           <img src="frontend/imgl/travel-advisor.png" class="img-responsive" alt="Flights Booking, Changes">                        </div>                     </div>                     <div class="col-lg-8 col-12 pl-lg-0">                        <div class="tc-child-div-s">                           <small class="tc-call-booking">Call Us For Urgent</small>                           <div class="clearfix"></div>                           <span class="tcsv">Booking, Changes/Cancellation Or Assistance</span>                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> +1-855-776-8168</div>                        </div>                     </div>                  </div>               </a>            </div>            </div>         </div>      </div>   </div>   </div><!--end here us-airlines--><script src="https://code.jquery.com/jquery-3.5.0.js"></script><script src="https://www.gofortaxis.com/frontend/bootsrap_V5/bootstrap.bundle.min.js"></script><style>   .tfn-bottom-section   {display:block !important;} body{margin-bottom:45.5px}   a {color: #343a40;}</style><script>$('.airline-name').text('Alaska Airlines');</script>
+<script>
+document.title = "Book Cheap Flight Ticket on Alaska Airlines - Airfaremoss";       
+document.getElementsByTagName('meta')["keywords"].content = "Cheap Booking flights, Online Flight Booking Service";       
+document.getElementsByTagName('meta')["description"].content = "Travel doesn't have to be expensive! Find amazing deals on flights and save big on your next trip.";   
+</script>
+   <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"  style="background-image: url('frontend/images/alska-air.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
+ <?php include 'includes/api-banner.php'; ?>  
+</div>
+<div class="whysky mb-4 mb-md-5">
+ <?php include 'includes/deals.php'; ?>
+</div> 
+   <div class="container mb-4 mb-md-5">
+      <div class="flight-list">
+		 <div class="headingtxt mb-3">
+		 <h3 class="headh3 txt-ff"><span>Alaska Airlines</span> Flight Deals <small>(Round Trip)</small> </h3>
+		 <span class="mxw lead text-center center-block txt-ff" data-aos="fade-down"></span>
+		 </div>
+        <div class="row g-3">
+		<div class="col-md-8 col-12 fdl">
+        <div class="row g-3">
+           <div class="col-md-6 col-12">
+               <div class="flight-status fs-indx bxd">
+<a title="Flight From New York To Orlando" href="<?= base_url() ?>Result?depart=NYC&arrival=ORL&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">
+                     <div class="row align-items-center no-gutters">
+                        <div class="col-lg-8 col-8">
+                          <div class="dd-box">
+							NYC <i class="ti-exchange-vertical"></i> ORL<br>
+							<span>New York to Orlando</span>
+							<hr>
+							<span><?= DR_DATE ?></span>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-4">
+                           <strong>$70<i class="ti-info-alt price-info"></i></strong>
+                           <button class="bknw">Book Now</button>   
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+           <div class="col-md-6 col-12">
+               <div class="flight-status fs-indx bxd">
+<a title="Flight From Denver to Las Vegas" href="<?= base_url() ?>Result?depart=DFW&arrival=LAS&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">
+                     <div class="row align-items-center no-gutters">
+                        <div class="col-lg-8 col-8">
+                          <div class="dd-box">
+							DFW <i class="ti-exchange-vertical"></i> LAS<br>
+							<span>Dallas to Las Vegas</span>
+							<hr>
+							<span><?= DR_DATE ?></span>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-4">
+                           <strong>$110<i class="ti-info-alt price-info"></i></strong>
+                           <button class="bknw">Book Now </button>   
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+           <div class="col-md-6 col-12">
+               <div class="flight-status fs-indx bxd">
+                <a title="Flight From Los Angeles to Kahului" href="<?= base_url() ?>Result?depart=LAX&arrival=OGG&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">
+                     <div class="row align-items-center no-gutters">
+                        <div class="col-lg-8 col-8">
+                          <div class="dd-box">
+							LAX <i class="ti-exchange-vertical"></i> OGG<br>
+							<span>Los Angeles to Kahului</span>
+							<hr>
+							<span><?= DR_DATE ?></span>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-4">
+                           <strong>$140<i class="ti-info-alt price-info"></i></strong>
+                           <button class="bknw">Book Now </button>   
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+           <div class="col-md-6 col-12">
+               <div class="flight-status fs-indx bxd">
+                <a title="Flight From Los Angeles to Honolulu" href="<?= base_url() ?>Result?depart=LAX&arrival=HNL&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">
+                     <div class="row align-items-center no-gutters">
+                        <div class="col-lg-8 col-8">
+                          <div class="dd-box">
+							LAX <i class="ti-exchange-vertical"></i> HNL<br>
+							<span>Los Angeles to Honolulu</span>
+							<hr>
+							<span><?= DR_DATE ?></span>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-4">
+                           <strong>$180<i class="ti-info-alt price-info"></i></strong>
+                           <button class="bknw">Book Now </button>   
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+           <div class="col-md-6 col-12">
+               <div class="flight-status fs-indx bxd">
+                <a title="Flight From Oakland to Honolulu" href="<?= base_url() ?>Result?depart=OAK&arrival=HNL&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">
+                     <div class="row align-items-center no-gutters">
+                        <div class="col-lg-8 col-8">
+                          <div class="dd-box">
+							OAK <i class="ti-exchange-vertical"></i> HNL<br>
+							<span>Oakland to Honolulu</span>
+							<hr>
+							<span><?= DR_DATE ?></span>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-4">
+                           <strong>$260<i class="ti-info-alt price-info"></i></strong>
+                           <button class="bknw">Book Now </button>   
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+           <div class="col-md-6 col-12">
+               <div class="flight-status fs-indx bxd">
+                  <a title="Flight From New York to Atlanta" href="<?= base_url() ?>Result?depart=NYC&arrival=ATL&trip=round&page=1&departOn%5B%5D=<?= D_DATE ?>&returnOn=<?= R_DATE ?>&adult=1&child=0&infant=0&cabin=ECONOMY&airline=">
+                     <div class="row align-items-center no-gutters">
+                        <div class="col-lg-8 col-8">
+                          <div class="dd-box">
+							NYC <i class="ti-exchange-vertical"></i> ATL<br>
+							<span>New York to Atlanta</span>
+							<hr>
+							<span><?= DR_DATE ?></span>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-4">
+                           <strong>$98<i class="ti-info-alt price-info"></i></strong>
+                           <button class="bknw">Book Now </button>   
+                        </div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            </div>
+            </div>
+<div class="col-md-4 col-12">
+<div class="right-side-card p-3 d-md-flex">
+<div class="w-md-50 w-100">
+</div>
+<div class="w-md-50 w-100">
+<b><span class="airline-name">Airlines</span></b><br> Looking for affordable travel options?
+<div class="for-changes pt-2"><a href="tel:+1 844-304-9595">
+<span><i class="fa fa-check-circle" aria-hidden="true"></i> Booking</span> 
+<span><i class="fa fa-check-circle" aria-hidden="true"></i> Changes</span>  
+<span><i class="fa fa-check-circle" aria-hidden="true"></i> Cancellation</span>  
+<span><i class="fa fa-check-circle" aria-hidden="true"></i> Assistance</span>
+<strong></strong></a><strong class="text-center"><a href="tel:<?= TFN ?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i> Toll-Free</a></strong>
+</div>
+</div>
+</div>
+</div>
+            </div>
+      </div>
+   </div>
+   <div class="about-Alaska-airlines content-wrap my-5">
+      <div class="container">
+            <div class="headingtxt hdadjt">
+               <div class="headh3 txt-ff txtc">Alaska Airlines - Book your flights with us and enjoy huge savings on airfare.</div>
+            </div>
+           <p>It's easy to purchase <a class='text-primary'href='https://www.alaskaair.com'>Alaska Airlines</a> tickets at Airfaremoss. Additionally, everyone may book with total confidence because of our numerous reservation options and straightforward cancellation policy. Your one-stop shop for all of your travel requirements is Airfaremoss.</p>
+<h3>Introduction to Alaska Airlines</h3>
+<p>A domestic airline with its headquarters in the US is Alaska Airlines. Seattle Tacoma International Airport serves as its core and administrative hub. The airline's secondary hub is Anchorage. Main Cabin, Premium Class, and First Class are the three service tiers offered by Alaska Airlines.</p>
+<p>Alaska Airlines has become well-known along the West Coast and in the Pacific Northwest, garnering attention on a national scale. It's also renowned for its excellent onboard service, roomy cabin, affordable basic economy rates, and blazing-fast in-flight Wi-Fi.</p>
+<h3>Baggage policy</h3>
+<p>Alaska charges set baggage fees, thus they are independent of the timing of your baggage reservation. In another sense, you have a choice between paying for your luggage at the time you book your airfare and paying for it after you arrive at the airport check-in station. The cost won't increase either way.</p>
+<p>Each traveler is permitted to bring one personal item and one free standard carry-on bag. Alaska doesn't specify any limitations on personal items' size. A typical carry-on bag shouldn't be bigger than 22 x 14 x 9 inches.</p>
+<div class="all-content">
+<h3>What Sorts of Services Can You Afford?</h3>
+<p>Alaska serves delicious meals on purchase. You will have access to everything, including healthy fruits, cheese platters, delicious nibbles, and artisanal alcoholic beverages. Throughout the trip, there is also the option of free food and drinks.</p>
+<p>The majority of planes offer Wi-Fi. Pay a little fee to maintain a connection in the sky. The flight comes with free beer and wine. The airline named its in-flight entertainment system Alaska Entertainment Beyond. With your gadget or one of the in-flight entertainment tablets, you can view movies and television.</p>
+<p>Each seat in the Main Cabin has a power outlet, allowing travelers to keep their electronic gadgets charged. You will have greater space in Premium Class. Free beverages are provided. The chairs are reasonably spacious in First Class. In this kind of service, a specialized flight attendant is offered. One benefit of traveling in First Class is that luggage will arrive at the destination more quickly and with priority check-in.</p>
+
+			 <h3>Frequent flyer program</h3>
+<p>Alaska Airlines' loyalty program is called <a href='https://www.alaskaair.com/content/mileage-plan'>Mileage Plan</a>. You can accrue worthwhile points by flying with carriers like British Airways and Cathay Pacific because they are members of the Oneworld alliance.</p>
+<p>Alaska has one of the most generous frequent flyer programs, rewarding miles for miles flown. There are numerous additional ways to accumulate miles through regular activities including dining, shopping, and hotel stays.</p>
+<h3>Customer Satisfaction</h3>
+<p>Alaska Airlines is highly regarded by customers in general. At the core of this is customer service, with Alaska getting acclaim for its amiable, supportive flight attendants as well as attentive customer service team.</p>
+<p>Loyal Alaska passengers frequently express gratitude to the airline on social media and stand up for their preferred airline when other passengers have negative things to say about it.</p>
+            </div>
+         <a class="readmore stmpbtn" href="#">Read more...</a>	 
+   </div>
+   </div>
+  
+  <div class="modal fade best-dealx" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+         <div class="modal-content">
+            <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                 <div class="pdl text-center">Book now and save up to $20!</div>
+              <div class="afm-offer-card01 p-3">
+               <a href="tel:<?= TFN ?>" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
+                  
+                  <div class="row align-items-top align-items-center mb-0">
+                           <div class="col-md-8 col-9 pl-lg-0">
+                        <div class="tc-child-div-s">
+                           <h3 class="afm-call-booking">Can't find the perfect fare? Let us help you.</h3>
+                           <div class="clearfix"></div>
+                           <span class="tcsv">Don't miss out on unbeatable deals.</span>
+                           <span class="tcsv tcsv2">Call Now</span>
+                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?></div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-3 offset-sm-1">
+                       
+                     </div>
+                
+                  </div>
+               </a>
+            </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+<!--end here us-airlines-->
+
+<style>
+.tfn-bottom-section{display:block !important;}
+body{margin-bottom:45.5px} a {color:#343a40;}
+.modal {top: 0 !important;}
+.rmpc {background: #bd98ff;padding: 15px;}
+.txt01{display:none;}
+</style>
+
+
+
+<script>
+$('.airline-name').text('Alaska Airlines');
+$('.txt02').text('Flight Deals');
+
+</script>

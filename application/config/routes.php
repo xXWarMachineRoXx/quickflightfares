@@ -158,6 +158,8 @@ $route['flights-under-69'] = 'MainController/flights_under_69';
 $route['flights-under-99'] = 'MainController/flights_under_99';
 $route['flights-under-199'] = 'MainController/flights_under_199';
 
+$route['tfp'] = 'MainController/tfp';
+
 // Destination Pairs
 $route['cheap-flight-denver']='MainController/cheap_flight_denver';
 $route['cheap-flight-phoenix-to-orlando']= 'MainController/cheap_flight_phoenix_to_orlando';
