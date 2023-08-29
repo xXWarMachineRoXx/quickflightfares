@@ -121,6 +121,7 @@ $route['flair-airlines'] = 'MainController/flair_airlines';
 $route['test-front-page'] = 'MainController/test_front_page';
 $route['southwest-airlines'] = 'MainController/southwest_airlines';
 $route['front-page'] = 'MainController/front_page';
+$route['disclaimer'] = 'MainController/disclaimer_page';
 $route['british-airways'] = 'MainController/british_airways';
 $route['norse-airlines'] = 'MainController/norse_airlines';
 $route['canadian-north'] = 'MainController/canadian_north';
@@ -145,6 +146,9 @@ $route['turkish-airlines'] = 'MainController/turkish_airlines';
 $route['volaris'] = 'MainController/volaris';
 $route['air-new-zealand'] = 'MainController/air_new_zealand';
 $route['central-mountain-air']='MainController/central_mountain_air';
+$route['iberia-airline']='MainController/iberia_airline';
+$route['lot-polish-airlines']='MainController/lot_polish_airlines';
+
 
 
 $route['test']='MainController/test';
@@ -156,7 +160,6 @@ $route['flights-under-49'] = 'MainController/flights_under_49';
 $route['flights-under-69'] = 'MainController/flights_under_69';
 $route['flights-under-99'] = 'MainController/flights_under_99';
 $route['flights-under-199'] = 'MainController/flights_under_199';
-$route['disclaimer'] = 'MainController/disclaimer_page';
 
 $route['tfp'] = 'MainController/tfp';
 
