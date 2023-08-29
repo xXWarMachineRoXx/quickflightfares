@@ -14,8 +14,7 @@ Disallow: /index.htm
 Disallow  /
 
 
-User-agent: ScreamingFrog
-Allow: *
+
 
 User-agent: Googlebot
 Allow: /application/views/

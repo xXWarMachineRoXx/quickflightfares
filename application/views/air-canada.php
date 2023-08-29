@@ -3,7 +3,7 @@ document.title = "Looking for affordable travel options on Air Canada?  - Quickf
 document.getElementsByTagName('meta')["keywords"].content = "";       
 document.getElementsByTagName('meta')["description"].content = "Get ready to take off to your next adventure without breaking the bank - book cheap flights with us today.";   
 </script>
-   <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"  style="background-image: url('frontend/images/air-canda.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
+   <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"  style="background-image: url('frontend/images/air-canada.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
  <?php require 'includes/api-banner.php'; ?>  
 </div>
 <div class="whysky mb-4 mb-md-5">
