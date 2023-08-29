@@ -23,7 +23,7 @@
             <ul>
                <li><a href="<?= base_url() ?>aeromexico-airlines">Aeromexico Airlines</a></li>
                <li><a href="<?= base_url() ?>air-canada">Air Canada</a></li>
-               <li><a href="<?= base_url() ?>air-france-airlines">Air France Airlines</a></li>
+               <li><a href="<?= base_url() ?>air-france">Air France Airlines</a></li>
                <li><a href="<?= base_url() ?>air-new-zealand">Air New Zealand</a></li>
                <li><a href="<?= base_url() ?>alaska-airlines">Alaska Airlines</a></li>
                <li><a href="<?= base_url() ?>allegiant-airlines">Allegiant Airlines</a></li>
@@ -56,7 +56,7 @@
                <li><a href="<?= base_url() ?>volaris">Volaris</a></li>
             </ul>
          </div>
-         <div class="ftr-sl border rounded p-3 mb-3 d-none">
+         <!-- <div class="ftr-sl border rounded p-3 mb-3 d-none">
             <h5 class="ul-head">Destination</h5>
             <ul>
                <li><a href="<?= base_url() ?>flights-to-hawaii">Flights To Hawaii</a></li>
@@ -72,7 +72,7 @@
                <li><a href="<?= base_url() ?>book-cheap-flights-to-dallas">Book Cheap Flights To Dallas</a></li>
                <li><a href="<?= base_url() ?>book-cheap-flights-to-denver">Book Cheap Flights To Denver</a></li>
             </ul>
-         </div>
+         </div> -->
          <div class="ftr-sl border rounded p-3 mb-3">
             <h5 class="ul-head">Deals</h5>
             <ul>
