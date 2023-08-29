@@ -1,11 +1,11 @@
 <script>
-document.title = "Flight Tickets Booking, Online Tickets at Low Airfares - quickflightfares";
+document.title = "Flight Tickets Booking, Online Tickets at Low Airfares - Airfaremoss";
 document.getElementsByTagName('meta')["keywords"].content = "Flight Reservation USA,";
 document.getElementsByTagName('meta')["description"].content =
-    "Get Our Low Cost Flight Tickets on quickflightfares. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on quickflightfares. Book Now! For Booking Call @ <?= TFN ?>.";
+    "Get Our Low Cost Flight Tickets on Airfaremoss. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Airfaremoss. Book Now! For Booking Call @ <?= TFN ?>.";
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
-    style="background-image: url('frontend/images/bg.jpg'); background-position: center;background-repeat: no-repeat; background-size: cover;">
+    style="background-image: url('frontend/images/bg.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
     <?php include 'includes/api-banner.php'; ?>
 </div>
 <div class="whysky mb-4">
@@ -295,9 +295,9 @@ document.getElementsByTagName('meta')["description"].content =
 
 <div class="bottom-txt mt-5 mb-5 content-wrap">
     <div class="container">
-        <p>With us, you can purchase the most affordable airline ticket. quickflightfares provides inexpensive flights to
+        <p>With us, you can purchase the most affordable airline ticket. Airfaremoss provides inexpensive flights to
             both tourist and business destinations. Look no further if you're searching for inexpensive round-trip or
-            one-way flights. Right here on quickflightfares, discover the top travel offers. </p>
+            one-way flights. Right here on Airfaremoss, discover the top travel offers. </p>
         <p>Booking for your desired destination tickets has never been simpler. Search and pick the most suitable flight
             offerings presented to you by our searches. If you have any further queries with your booking, our customer
             support team is available 24x7 to asssit you to make a booking asyou’re your preferences.</p>
@@ -306,7 +306,7 @@ document.getElementsByTagName('meta')["description"].content =
         <p>Look forward to destinations you may visit right now to find the best offers among thousands of domestic and
             international flights.</p>
         <div class="all-content">
-            <p>Apart from the convenience, choice, flexibility, and price comparison, quickflightfares offers plain-sailing
+            <p>Apart from the convenience, choice, flexibility, and price comparison, AirFareMoss offers plain-sailing
                 services such as Package deals, Last-minute deals, and Customized Recommendations. We also prioritize
                 traveller safety and security, offering secure payment options, protecting personal information, and
                 adhering to industry regulations and standard, helping travellers make informed decisions and ensuring
@@ -340,7 +340,7 @@ document.getElementsByTagName('meta')["description"].content =
 <div class="container text-right btnrm d-none">
     <button onclick="myFunction()" id="myBtn" class="mb-5 ml-auto">Read more</button>
 </div>
-<div class="modal fade pop-form" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<!-- <div class="modal fade pop-form" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -375,13 +375,46 @@ document.getElementsByTagName('meta')["description"].content =
             </div>
         </div>
     </div>
-</div>
+</div> -->
+<div class="modal fade best-dealx" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+      <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+         <div class="modal-content">
+            <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="modal-body">
+                 <div class="pdl text-center">Book now and save up to $20!</div>
+              <div class="afm-offer-card01 p-3">
+               <a href="tel:<?= TFN ?>" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
+                  
+                  <div class="row align-items-top align-items-center mb-0">
+                           <div class="col-md-8 col-9 pl-lg-0">
+                        <div class="tc-child-div-s">
+                           <h3 class="afm-call-booking">Can't find the perfect fare? Let us help you.</h3>
+                           <div class="clearfix"></div>
+                           <span class="tcsv">Don't miss out on unbeatable deals.</span>
+                           <span class="tcsv tcsv2">Call Now</span>
+                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?></div>
+                        </div>
+                     </div>
+                     <div class="col-md-4 col-3 offset-sm-1">
+                       
+                     </div>
+                
+                  </div>
+               </a>
+            </div>
+            </div>
+         </div>
+      </div>
+   </div>
 
 <script>
-$('.airline-name').text('quickflightfares');
+$('.airline-name').text('Airfaremoss');
 </script>
 
 <style>
+    .tfn-bottom-section{display:block !important;}
 .fdl {
     display: none;
 }
