@@ -258,6 +258,7 @@ $route['cheap-flight-seattle-to-phoenix']= 'MainController/cheap_flight_seattle_
 $route['cheap-flight-seattle-to-dallas']= 'MainController/cheap_flight_seattle_to_dallas';
 $route['cheap-flight-seattle-to-houston']= 'MainController/cheap_flight_seattle_to_houston';
 $route['cheap-flight-seattle-to-newark-liberty-intl']= 'MainController/cheap_flight_seattle_to_newark_liberty_intl';
+$route['cheap-flight-phoenix-to-toronto']= 'MainController/cheap_flight_phoenix_to_toronto';
 
 
 

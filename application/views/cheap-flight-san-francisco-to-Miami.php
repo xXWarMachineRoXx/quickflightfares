@@ -4,21 +4,7 @@ define('TO_LOCATION', 'MIA');
 define('full_name_fl', 'San Francisco');
 define('full_name_tl', 'Miami');
 
-// Get the current year, month, and day
-// $currentYear = date('Y');
-// $currentMonth = date('m');
-// $currentDay = date('d');
 
-// // Calculate the middle day of the month
-// $middleDay = ceil(cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear) / 2);
-
-// if ($currentDay <= $middleDay) {
-//     // Define the OfferDateRange for the first half of the month
-//     define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-01")) . " - " . date('d M', strtotime("$currentYear-$currentMonth-$middleDay")));
-// } else {
-//     // Define the OfferDateRange for the second half of the month
-//     define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-" . ($middleDay + 1))) . " - " . date('d M', strtotime("$currentYear-$currentMonth-" . cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear))));
-// }
 
 $currentDate = date('Y-m-d');
 
