@@ -14,18 +14,18 @@ $currentDay = date('d');
 $middleDay = ceil(cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear) / 2);
 
 if ($currentDay <= $middleDay) {
-    // Define the OfferDateRange for the first half of the month
-    define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-01")) . " - " . date('d M', strtotime("$currentYear-$currentMonth-$middleDay")));
+   // Define the OfferDateRange for the first half of the month
+   define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-01")) . " - " . date('d M', strtotime("$currentYear-$currentMonth-$middleDay")));
 } else {
-    // Define the OfferDateRange for the second half of the month
-    define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-" . ($middleDay + 1))) . " - " . date('d M', strtotime("$currentYear-$currentMonth-" . cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear))));
+   // Define the OfferDateRange for the second half of the month
+   define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-" . ($middleDay + 1))) . " - " . date('d M', strtotime("$currentYear-$currentMonth-" . cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear))));
 }
 
 ?>
 <script>
    document.title = "Book Cheap Flight Ticket on <?= Airline ?> | Get Cheap Flight Deal <?= Airline ?> - Airfaremoss";
    document.getElementsByTagName('meta')["keywords"].content = "<?= Airline ?>, <?= Airline ?> , <?= Airline ?> Flights, <?= Airline ?> Reservations, <?= Airline ?> Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking"; ";       
-   document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Airfaremoss. Get the best fairs With US - call us @ <a href='tel:<?= TFN ?>";'><?= TFN ?></a>    
+   document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Airfaremoss. Get the best fairs With US - call us @ <a href='tel:<?= TFN ?>"; '><?= TFN ?></a>    
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
    style="background-image: url('frontend/images/aeromexico.jpg'); background-postion: 5px; background-size: cover;">
@@ -219,7 +219,7 @@ if ($currentDay <= $middleDay) {
          according to their preferences.</p>
       <p>In case you wish to secure a preferred seat at <strong>affordable bargains</strong>, the Airfaremoss
          reservation team is the soundest explanation for you. Reach us at <strong>
-            <a href='tel:<?= TFN ?>'><?= TFN ?></a> 
+            <a href='tel:<?= TFN ?>'><?= TFN ?></a>
          </strong> and gain
          <strong>cheap flight tickets</strong> quite effortlessly.
       </p>
@@ -228,7 +228,7 @@ if ($currentDay <= $middleDay) {
          in South America, Asia, North America, Europe, Central America, and multiple others. On some occasions, the
          airline promotes many seasonal flights to various destinations. You can have a gaze at them by contacting
          the Airfaremoss team. Reach us at
-         <a href='tel:<?= TFN ?>'><?= TFN ?></a>  and enjoy <strong>affordable flight deals</strong> to your
+         <a href='tel:<?= TFN ?>'><?= TFN ?></a> and enjoy <strong>affordable flight deals</strong> to your
          requested destinations. Get <strong>cheap flight tickets</strong> with minimal compromises with us. We will
          provide you with the opportunity to seize incredible undisclosed deals which help you enjoy the breeze of
          Mexico without tilting Pico de Orizaba.
@@ -245,7 +245,7 @@ if ($currentDay <= $middleDay) {
             passengers to check any bags if the checked baggage does not satisfy the requirements listed. Travelers
             may be required to pay baggage fees based on the fare class and membership level. Speak with the team for
             better deals, you can reach the team at <strong>
-               <a href='tel:<?= TFN ?>.'><?= TFN ?></a> 
+               <a href='tel:<?= TFN ?>.'><?= TFN ?></a>
             </strong></p>
          <h3>Check-in Process</h3>
          <p>The check-in facility is available on both platforms:</p>
@@ -259,42 +259,8 @@ if ($currentDay <= $middleDay) {
    </div>
 </div>
 
-<div class="modal fade best-dealx" id="exampleModalCenter" tabindex="-1" role="dialog"
-   aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" data-keyboard="false">
-   <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-      <div class="modal-content">
-         <button type="button" class="close close-btn" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-         </button>
-         <div class="modal-body">
-            <div class="pdl text-center">Book now and save up to $20!</div>
-            <div class="afm-offer-card01 p-3">
-               <a href="tel:<a href='tel:<?= TFN ?>"'><?= TFN ?></a>  class="tfn-url"
-                  title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
+<?php include "popup-ad.php"?>
 
-                  <div class="row align-items-top align-items-center mb-0">
-                     <div class="col-md-8 col-9 pl-lg-0">
-                        <div class="tc-child-div-s">
-                           <h3 class="afm-call-booking">Can't find the perfect fare? Let us help you.</h3>
-                           <div class="clearfix"></div>
-                           <span class="tcsv">Don't miss out on unbeatable deals.</span>
-                           <span class="tcsv tcsv2">Call Now</span>
-                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i>
-                              <a href='tel:<?= TFN ?>'><?= TFN ?></a> 
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-4 col-3 offset-sm-1">
-
-                     </div>
-
-                  </div>
-               </a>
-            </div>
-         </div>
-      </div>
-   </div>
-</div>
 <!--end here us-airlines-->
 
 <style>
