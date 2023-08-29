@@ -5,7 +5,6 @@ define('full_name_fl', 'San Francisco');
 define('full_name_tl', 'Miami');
 
 
-
 $currentDate = date('Y-m-d');
 
 // Calculate the OfferDateRange for the next 7 to 14 days
