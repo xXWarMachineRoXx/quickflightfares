@@ -1,11 +1,11 @@
 <script>
-document.title = "Flight Tickets Booking, Online Tickets at Low Airfares - Airfaremoss";
+document.title = "Flight Tickets Booking, Online Tickets at Low Airfares - Quickflightfares";
 document.getElementsByTagName('meta')["keywords"].content = "Flight Reservation USA,";
 document.getElementsByTagName('meta')["description"].content =
-    "Get Our Low Cost Flight Tickets on Airfaremoss. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Airfaremoss. Book Now! For Booking Call @ <?= TFN ?>.";
+    "Get Our Low Cost Flight Tickets on Quickflightfares. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Quickflightfares. Book Now! For Booking Call @ <?= TFN ?>.";
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
-    style="background-image: url('frontend/images/bg.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
+    style="background-image: url('frontend/images/bg.jpg'); background-position: 40%; background-size: cover;">
     <?php include 'includes/api-banner.php'; ?>
 </div>
 <div class="whysky mb-4">
@@ -295,9 +295,9 @@ document.getElementsByTagName('meta')["description"].content =
 
 <div class="bottom-txt mt-5 mb-5 content-wrap">
     <div class="container">
-        <p>With us, you can purchase the most affordable airline ticket. Airfaremoss provides inexpensive flights to
+        <p>With us, you can purchase the most affordable airline ticket. Quickflightfares provides inexpensive flights to
             both tourist and business destinations. Look no further if you're searching for inexpensive round-trip or
-            one-way flights. Right here on Airfaremoss, discover the top travel offers. </p>
+            one-way flights. Right here on Quickflightfares, discover the top travel offers. </p>
         <p>Booking for your desired destination tickets has never been simpler. Search and pick the most suitable flight
             offerings presented to you by our searches. If you have any further queries with your booking, our customer
             support team is available 24x7 to asssit you to make a booking asyou’re your preferences.</p>
@@ -306,7 +306,7 @@ document.getElementsByTagName('meta')["description"].content =
         <p>Look forward to destinations you may visit right now to find the best offers among thousands of domestic and
             international flights.</p>
         <div class="all-content">
-            <p>Apart from the convenience, choice, flexibility, and price comparison, AirFareMoss offers plain-sailing
+            <p>Apart from the convenience, choice, flexibility, and price comparison, Quickflightfares offers plain-sailing
                 services such as Package deals, Last-minute deals, and Customized Recommendations. We also prioritize
                 traveller safety and security, offering secure payment options, protecting personal information, and
                 adhering to industry regulations and standard, helping travellers make informed decisions and ensuring
@@ -410,7 +410,7 @@ document.getElementsByTagName('meta')["description"].content =
    </div>
 
 <script>
-$('.airline-name').text('Airfaremoss');
+$('.airline-name').text('Quickflightfares');
 </script>
 
 <style>

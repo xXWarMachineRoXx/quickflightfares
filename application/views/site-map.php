@@ -1,7 +1,7 @@
 <script>
-   document.title = "Site Map - Airfaremoss";
-   document.getElementsByTagName('meta')["keywords"].content = "Site Map Airfaremoss";
-   document.getElementsByTagName('meta')["description"].content = "Site Map Airfaremoss ";
+   document.title = "Site Map - Quickflightfares";
+   document.getElementsByTagName('meta')["keywords"].content = "Site Map Quickflightfares";
+   document.getElementsByTagName('meta')["description"].content = "Site Map Quickflightfares ";
 </script>
 <div id="services" class="section ">
    <div class="inner-pages site-map">

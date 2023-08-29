@@ -6,22 +6,18 @@
 <meta name="keywords" content="Online cheap flights ticket booking Online flights ticket booking, Cheap flights ticket booking, flights ticket booking, flights booking, Online cheap flights, Cheap flights tickets, Online flights booking" />
 <meta name="description" content="Online Cheap Flights Ticket Booking. Lowest Fares & Best Travel Deals.24/7 Hours Travel Experts Support. Book Now at quickflightfares. For booking information call us @<?= TFN ?> Or Mail us - <?= MAIL ?>">
 <link rel=“canonical” href=“https://www.quickflightfares.com” />
-<!--      <link href="<?= base_url() ?>frontend/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>-->
 <link rel="stylesheet" href="<?= base_url() ?>frontend/bootsrap_V5/bootstrap.min.css">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link href="<?= base_url() ?>frontend/css/style.css" rel="stylesheet">
 <link href="<?= base_url() ?>frontend/themify-icons/themify-icons.css" rel="stylesheet">
 <link href="<?= base_url() ?>frontend/css/form.css" rel="stylesheet">
-<!-- <link href="<?= base_url() ?>frontend/css/responsive.css" rel="stylesheet">
 <link href="<?= base_url() ?>frontend/css/css-slider.css" rel="stylesheet">
 <link href="<?= base_url("frontend/") ?>css/tc-animate.min.css" rel="stylesheet" type="text/css" />
-<link href="<?= base_url("frontend/") ?>css/fo-custom.css" rel="stylesheet" type="text/css" />-->
+<link href="<?= base_url("frontend/") ?>css/fo-custom.css" rel="stylesheet" type="text/css" />
 <link href="<?= base_url("frontend/") ?>css/afm-custom.css" rel="stylesheet" type="text/css" />
 <link href="<?= base_url("frontend/") ?>css/lpcustom.css" rel="stylesheet" type="text/css" />
-<!--<link href="<?= base_url("frontend/") ?>css/tc-webslidemenu.css" rel="stylesheet" type="text/css" />-->
-<link rel="icon" href="<?= base_url() ?>frontend/images/favicon.png"  sizes="16x16">
-<!--<link rel="manifest" href="images/fav/manifest.json">
-<link rel="manifest" href="img/fav/manifest.json">-->
+<link rel="icon" href="<?= base_url() ?>frontend/images/favicon.ico"  sizes="32x32">
+<link rel="manifest" href="frontend/manifest.json">
 <meta name="theme-color" content="#ffffff">
 <link href="<?= base_url() ?>frontend/css/jquery.autocomplete.css" rel="stylesheet" type="text/css" />
 <link href="<?= base_url() ?>frontend/css/jquery.ui.css" rel="stylesheet" type="text/css" />

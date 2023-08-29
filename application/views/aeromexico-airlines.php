@@ -23,9 +23,9 @@ if ($currentDay <= $middleDay) {
 
 ?>
 <script>
-   document.title = "Book Cheap Flight Ticket on <?= Airline ?> | Get Cheap Flight Deal <?= Airline ?> - Airfaremoss";
+   document.title = "Book Cheap Flight Ticket on <?= Airline ?> | Get Cheap Flight Deal <?= Airline ?> - Quickflightfares";
    document.getElementsByTagName('meta')["keywords"].content = "<?= Airline ?>, <?= Airline ?> , <?= Airline ?> Flights, <?= Airline ?> Reservations, <?= Airline ?> Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking"; ";       
-   document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Airfaremoss. Get the best fairs With US - call us @ <a href='tel:<?= TFN ?>"; '><?= TFN ?></a>    
+   document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <a href='tel:<?= TFN ?>"; '><?= TFN ?></a>    
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
    style="background-image: url('frontend/images/aeromexico.jpg'); background-postion: 5px; background-size: cover;">
@@ -57,7 +57,7 @@ if ($currentDay <= $middleDay) {
                                  <span>Mexico City to Tuxtla Gutierrez</span>
                                  <hr>
                                  <span>
-                                    18/09/2023 - 03/10/2023
+                                    <?php OFFER_DATE_RANGE; ?>
                                  </span>
                               </div>
                            </div>
@@ -81,7 +81,7 @@ if ($currentDay <= $middleDay) {
                                  <span>Mexico City to Tijuana</span>
                                  <hr>
                                  <span>
-                                    20/10/2023 - 23/10/2023
+                                    <?php OFFER_DATE_RANGE ?>
                                  </span>
                               </div>
                            </div>
@@ -105,7 +105,7 @@ if ($currentDay <= $middleDay) {
                                  <span>Mexico City to Puerto Escondido</span>
                                  <hr>
                                  <span>
-                                    24/10/2023 - 27/10/2023
+                                   <?= OFFER_DATE_RANGE ?>
                                  </span>
                               </div>
                            </div>
@@ -129,7 +129,7 @@ if ($currentDay <= $middleDay) {
                                  <span>Mexico City to Torreon</span>
                                  <hr>
                                  <span>
-                                    20/10/2023 - 23/10/2023
+                                    <?php OFFER_DATE_RANGE ?>
                                  </span>
                               </div>
                            </div>
@@ -152,7 +152,7 @@ if ($currentDay <= $middleDay) {
                                  <span>Mexico City to Cancun</span>
                                  <hr>
                                  <span>
-                                    28/08/2023 - 30/08/2023
+                                    <?php OFFER_DATE_RANGE ?>
                                  </span>
                               </div>
                            </div>
@@ -176,7 +176,7 @@ if ($currentDay <= $middleDay) {
                                  <span>Mexico City to Guadalajara</span>
                                  <hr>
                                  <span>
-                                    30/08/2023 - 02/09/2023
+                                    <?php OFFER_DATE_RANGE ?>
                                  </span>
                               </div>
                            </div>
@@ -202,7 +202,7 @@ if ($currentDay <= $middleDay) {
          <div class="headh3 txt-ff">Aeromexico Airlines </div>
       </div>
       <p>Experience exceptional offers with Aeromexico, catering to a diverse
-         range of preferences. At Airfaremoss, we extend an exclusive key to a realm of
+         range of preferences. At Quickflightfares, we extend an exclusive key to a realm of
          confidential,phone-only deals. Our commitment ensures your desired outcomes while
          staying within your budget. Join us, a prominent travel company in the United States,
          and unlock unparalleled deals for both Aeromexico's international and domestic
@@ -217,7 +217,7 @@ if ($currentDay <= $middleDay) {
       <p>The airline uses Monterrey International Airport as its operational base and is offering services in two
          cabins; Main Cabin and Premier Class Cabin. It allows the opportunity for passengers to choose their service
          according to their preferences.</p>
-      <p>In case you wish to secure a preferred seat at <strong>affordable bargains</strong>, the Airfaremoss
+      <p>In case you wish to secure a preferred seat at <strong>affordable bargains</strong>, the Quickflightfares
          reservation team is the soundest explanation for you. Reach us at <strong>
             <a href='tel:<?= TFN ?>'><?= TFN ?></a>
          </strong> and gain
@@ -227,7 +227,7 @@ if ($currentDay <= $middleDay) {
       <p>Aeromexico serves its <strong>cheap flight journeys</strong> to over 87 locations including multiple cities
          in South America, Asia, North America, Europe, Central America, and multiple others. On some occasions, the
          airline promotes many seasonal flights to various destinations. You can have a gaze at them by contacting
-         the Airfaremoss team. Reach us at
+         the Quickflightfares team. Reach us at
          <a href='tel:<?= TFN ?>'><?= TFN ?></a> and enjoy <strong>affordable flight deals</strong> to your
          requested destinations. Get <strong>cheap flight tickets</strong> with minimal compromises with us. We will
          provide you with the opportunity to seize incredible undisclosed deals which help you enjoy the breeze of
