@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-define('Airline', 'AirMexico Airlines');
+define('Airline', 'Aeromexico Airlines');
 define('FROM_LOCATION', 'Mexico City');
 define('FROM_LOCATION_CODE', 'MEX');
 
