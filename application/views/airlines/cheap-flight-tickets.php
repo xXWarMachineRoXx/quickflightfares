@@ -1,7 +1,7 @@
  <script>
- document.title = "Cheap flight tickets to , Online Tickets to  - Flightdealtoday";
+ document.title = "Cheap flight tickets to , Online Tickets to  - Airfaremoss";
 document.getElementsByTagName('meta')["keywords"].content = "Airline Booking in USA, Online Tickets Booking USA, Airline Ticket Booking Services, Flight Reservation USA, Aeroplane Ticket Booking, Flight Ticket Rates in USA, Flight Ticket Online, Airline Ticket Prices in USA, Airfare Prices in USA, Air Flight Tickets";
-document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on Flightdealtoday. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Flightdealtoday. Book Now! For Booking Call @ <?= TFN ?>.";
+document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on Airfaremoss. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Airfaremoss. Book Now! For Booking Call @ <?= TFN ?>.";
 </script>
 <link rel="stylesheet" href="https://www.tourcruisers.com/cdn/css/effects.min.css"> 
 <link rel="stylesheet" href="https://www.tourcruisers.com/cdn/css/lpcustom.css">

@@ -1,37 +1,35 @@
 <!-- customize-->
-<div class="kp">
-    <div class="container">
-        <ul class="key-point2 px-0 px-md-3 d-flex align-items-center justify-content-between">
-            <li>
-                <span class="imgk"><span class="ti-check"></span></span>
-                <span>Booking</span>
-            </li>
-            <li>
-                <span class="imgk"><span class="ti-check"></span></span>
-                <span>Changes/Cancellation</span>
-            </li>
-            <li>
-                <span class="imgk"><span class="ti-check"></span></span>
-                Assistance
-            </li>
-        </ul>
-    </div>
+ <div class="kp">
+<div class="container">
+   <ul class="key-point2 px-0 px-md-3 d-flex align-items-center justify-content-between">
+   <li>
+  <span class="imgk"><span class="ti-check"></span></span>
+  <span>Booking</span>
+   </li>
+   <li>
+   <span class="imgk"><span class="ti-check"></span></span>
+   <span>Changes/Cancellation</span>
+   </li>
+   <li>
+   <span class="imgk"><span class="ti-check"></span></span>
+   Assistance
+   </li>
+   </ul>
+</div></div>
+<div class="footer-section3 bgc">  
+<div class="pt-4 pb-2">
+    
+  <div class="container">
+   
+  <div class="row">
+      <div class="col-md-3 col-12 d-none">
+<div class="ftr-sl inlst">
+<h4>Top Airlines</h4>
+<img onclick="window.location.href='<?= base_url() ?>'" src="<?= base_url() ?>frontend/images/logo.png" alt="AirFareMoss logo"/>
 </div>
-<div class="footer-section3 bgc">
-    <div class="pt-4 pb-2">
 
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-3 col-12 d-none">
-                    <div class="ftr-sl inlst">
-                        <h4>Top Airlines</h4>
-                        <img onclick="window.location.href='<?= base_url() ?>'"
-                            src="<?= base_url() ?>frontend/images/logo.png" alt="quickflightfares logo" />
-                    </div>
-
-                </div>
-
+</div>
+ 
 
                 <div class="col-md-3 col-6 ">
                     <div class="ftr-sl">
@@ -43,7 +41,7 @@
                             </li>
                             <li><a href="<?= base_url() ?>disclaimer">Disclaimer</a></li>
 
-                            <!--<li ><a href="<?= base_url() ?>refund-policy">Refund Policy </a></li>
+<!--<li ><a href="<?= base_url() ?>refund-policy">Refund Policy </a></li>
 <li ><a href="<?= base_url() ?>discount-and-savings-claim">Discount and savings claim </a></li>-->
                         </ul>
                     </div>
@@ -60,129 +58,96 @@
                     </div>
                     <div class="clearfix"></div>
 
-                    <div class="social-ftr pd-xs d-none">
-                        <h4>Follow us:</h4>
-                        <a href="#"><span class="ti-facebook"></span></a>
-                        <a href="#"><span class="ti-twitter"></span></a>
-                        <a href="#"><span class="ti-linkedin"></span></a>
-                        <a href="#"><span class="ti-instagram"></span></a>
-                    </div>
-
-                </div>
-                <div class="col-md-3 col-6">
-                    <div class="clearfix"></div>
-                    <h4>Contact Info.</h4>
-                    <div class="ss-sec">
-                        <i class="fa fa-location-arrow" aria-hidden="true"></i>
-                        <span>
-                            <b>Address:</b>
-                            <div class="clearfix"></div>
-                            <h5><a href='https://goo.gl/maps/hf3H7X476dM4L8e49'>
-                                    <?= ADDRESS ?>
-                                </a>
-                            </h5>
-                            <div class="clearfix"></div>
-
-                        </span>
-                    </div>
-
-                    <div class="ss-sec">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <span>
-                            <b>Email Us:</b>
-                            <div class="clearfix"></div>
-                            <h5><a href="mailto:<?= EMAIL ?>"> <?= EMAIL ?></a></h5>
-                            <div class="clearfix"></div>
-
-                        </span>
-                    </div>
-                    <div class="ss-sec">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <span>
-                            <b>Call Us:</b>
-                            <div class="clearfix"></div>
-                            <h5><a href="tel: <?= TFN ?>"> <?= TFN ?></a>
-                                <div class="clearfix"></div>
-
-                        </span>
-
-                    </div>
-
-
-                    <div class="clearfix d-none"></div>
-                    <!--<p class="img-fluid d-none d-sm-none d-lg-block"><img src="<?= base_url() ?>media/images/pay.png" alt="payment options"></p>-->
-                </div>
-                <div class="col-md-3 col-12 d-none">
-                    <div class="ftr-sl inlst">
-                        <h4>Top Airlines</h4>
-                        <ul>
-                            <li><a href="<?= base_url() ?>spirit-airlines">Spirit Airlines</a></li>
-                            <li><a href="<?= base_url() ?>frontier-airlines">Frontier Airlines</a></li>
-                            <li><a href="<?= base_url() ?>jetblue-airways">Jetblue Airways</a></li>
-                            <li><a href="<?= base_url() ?>southwest-airlines">Southwest Airlines</a></li>
-                            <li><a href="<?= base_url() ?>alaska-airlines">Alaska Airlines</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-
-
-
-            </div>
-            <div class="d-none">
-                <h6>Discount and Savings Claim</h6>
-                <p>We offer buyers various discounts and provide rebates to our shoppers. While looking for airfares,
-                    rebate, and reserve price range claims depend on numerous variables, collectively with attempting
-                    over six hundred providers to hint down the smallest quantity reachable passage. There are lots of
-                    things need to follow when to look up for discounts. All of them vary on the current and the lates
-                    offers. </p>
-                <p>Coupon codes add a significant sum for Qualified Meeting Reserve from your regular support costs.
-                    Older and younger people may find that, depending on their expertise, the reception options offered
-                    by certain carriers are clearly limited. Military, deprivation and externally hindered voyagers
-                    square measure qualified for limits off our post-booking administration expenses as ordered enter
-                    our sympathy special case strategy. you will only get what you want and with our services you will
-                    get more. Expenses and obligations and other costs as well are also include in this.</p>
-            </div>
-            <br>
-            <h6 class="text-white">Disclaimer:</h6>
-            <p class="text-white">The products and services which we offer on our website to our clients may contain
-                some errors. So it is requested you to must clarify before using any services from our website. We
-                aren't liable for any trip, and you need to get familiar with the details of the services, and therefore
-                you would be confident enough. The inaccuracies may be pricing crimes, description errors, etc., and we
-                recommend that you speak to our representative to learn further about our services. Certain features of
-                our services are subject to change without notice, and we are not obligated to notify you of any
-                changes. You will need to contact support. We will be happy to support you. <a
-                    href="<?= base_url() ?>disclaimer" class="link-warning">Read More.</a>
-            </p>
-
-
-
-        </div>
-    </div>
+<div class="social-ftr pd-xs d-none">
+<h4>Follow us:</h4>
+<a href="#"><span class="ti-facebook"></span></a>
+<a href="#"><span class="ti-twitter"></span></a>
+<a href="#"><span class="ti-linkedin"></span></a>
+<a href="#"><span class="ti-instagram"></span></a>
 </div>
+   
+</div>
+<div class="col-md-3 col-6">
+<div class="clearfix"></div>
+<h4>Contact Info.</h4>
+<div class="ss-sec">
+     <i class="fa fa-location-arrow" aria-hidden="true"></i>
+	 <span>
+	 <b>Address:</b><div class="clearfix"></div>
+	 <h5><?= ADDRESS ?>
+	 </h5><div class="clearfix"></div>
+	 
+   </span>
+</div>
+ 
+<div class="ss-sec">
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+	 <span>
+	 <b>Email Us:</b><div class="clearfix"></div>
+	 <h5><a href="<?= EMAIL ?>"> <?= EMAIL ?></a></h5><div class="clearfix"></div>
+	 
+   </span>
+</div>
+ <div class="ss-sec">
+     <i class="fa fa-phone" aria-hidden="true"></i>
+	 <span>
+	 <b>Call Us:</b><div class="clearfix"></div>
+	 <h5><a href="tel: <?= TFN ?>"> <?= TFN ?></a>
+<div class="clearfix"></div>
+	 
+   </span>
+
+</div>
+
+
+<div class="clearfix d-none"></div>
+ <!--<p class="img-fluid d-none d-sm-none d-lg-block"><img src="<?=  base_url()  ?>media/images/pay.png" alt="payment options"></p>-->
+</div>
+<div class="col-md-3 col-12 d-none">
+<div class="ftr-sl inlst">
+<h4>Top Airlines</h4>
+<ul>
+<li><a href="<?= base_url() ?>spirit-airlines">Spirit Airlines</a></li>
+<li><a href="<?= base_url() ?>frontier-airlines">Frontier Airlines</a></li>
+<li><a href="<?= base_url() ?>jetblue-airways">Jetblue Airways</a></li>
+<li><a href="<?= base_url() ?>southwest-airlines">Southwest Airlines</a></li>
+<li><a href="<?= base_url() ?>alaska-airlines">Alaska Airlines</a></li>
+</ul>
+</div>
+
+</div>
+
+
+  
+  </div>
+<div class="d-none"><h6>Discount and Savings Claim</h6>
+<p>We offer buyers various discounts and provide rebates to our shoppers. While looking for airfares, rebate, and reserve price range claims depend on numerous variables, collectively with attempting over six hundred providers to hint down the smallest quantity reachable passage. There are lots of things need to follow when to look up for discounts. All of them vary on the current and the lates offers.  </p>
+<p>Coupon codes add a significant sum for Qualified Meeting Reserve from your regular support costs. Older and younger people may find that, depending on their expertise, the reception options offered by certain carriers are clearly limited. Military, deprivation and externally hindered voyagers square measure qualified for limits off our post-booking administration expenses as ordered enter our sympathy special case strategy. you will only get what you want and with our services you will get more. Expenses and obligations and other costs as well are also include in this.</p></div>
+<br><h6 class="text-white">Disclaimer:</h6>
+<p class="text-white">The products and services which we offer on our website to our clients may contain some errors. So it is requested you to must clarify before using any services from our website. We aren't liable for any trip, and you need to get familiar with the details of the services, and therefore you would be confident enough. The inaccuracies may be pricing crimes, description errors, etc., and we recommend that you speak to our representative to learn further about our services. Certain features of our services are subject to change without notice, and we are not obligated to notify you of any changes. You will need to contact support. We will be happy to support you. <a href="<?= base_url() ?>disclaimer" class="link-warning">Read More.</a>
+</p>
+
+
+
+ </div>  
+  </div>
+  </div>
 </div> <!-- end here footer -->
 <div class="bottom-md-footer text-center py-1">
-    <div class="container">
-        <p> Registered office located at <a href='https://goo.gl/maps/hf3H7X476dM4L8e49'>
-                <?= ADDRESS ?>
-            </a>, in the state of Pennsylvania (USA). We are available to provide customer support on all days from
-            Monday to Sunday. <br><a href='tel:<?= TFN ?>'>Customer Service Number: <?= TFN ?></a> | <a
-                href="mailto:<?= EMAIL ?>">Email: <?= EMAIL ?></a> <br> © Copyrights 2023.
-            <?= WEBSITE ?>.
-        </p>
-        <ul class="card-option d-flex justify-content-center align-items-center m-0 p-0">
-            <li>We Accept All:</li>
-            <li><img src="<?= base_url() ?>frontend/images/visa-card.png" alt="visa card payment options"></li>
-            <li><img src="<?= base_url() ?>frontend/images/master-card.png" alt="master card payment options"></li>
-            <li><img src="<?= base_url() ?>frontend/images/dicover-card.png" alt="dicover card payment options"></li>
-            <li><img src="<?= base_url() ?>frontend/images/american-card.png"
-                    alt="american express card payment options"></li>
-            <li><img src="<?= base_url() ?>frontend/images/jcb-card.png" alt="jcb card payment options"></li>
-        </ul>
-    </div>
-</div>
+<div class="container">
+ <p>AIRFAREMOSS its registered office located at Address:117 Windwoods Drive, Collegeville PA 19426, in the state of Pennsylvania (USA).  We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <?= TFN ?> | Email: <?= EMAIL ?> © Copyrights 2023. <?= WEBSITE ?>.</p>      
+<ul class="card-option d-flex justify-content-center align-items-center m-0 p-0">
+    <li>We Accept All:</li>
+			<li><img src="<?= base_url() ?>frontend/images/visa-card.png" alt="visa card payment options"></li>
+			<li><img src="<?= base_url() ?>frontend/images/master-card.png" alt="master card payment options"></li>
+			<li><img src="<?= base_url() ?>frontend/images/dicover-card.png" alt="dicover card payment options"></li>
+			<li><img src="<?= base_url() ?>frontend/images/american-card.png" alt="american express card payment options"></li>
+			<li><img src="<?= base_url() ?>frontend/images/jcb-card.png" alt="jcb card payment options"></li>
+</ul>
+ </div> 
+ </div> 
 <!-- TFN Fixed Bottom ---->
-<?php include('tfn-bottom.php'); ?>
+ <?php include('tfn-bottom.php'); ?>
 <!--- End Here TFN Fixed Bottom --->
 
 
@@ -190,25 +155,20 @@
 <div class="call-tag d-none">
     <a href="tel:<?= TFN ?>">
 
-        <i class="fa fa-phone" aria-hidden="true"></i>
-        <?= TFN ?>
+        <i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?>
 
     </a>
 </div>
 
-<div class="dm-alertT d-flex justify-content-center tfn-ft v5u align-items-center alert alert-dismissible p-0 fade show"
-    role="alert">
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+<div class="dm-alertT d-flex justify-content-center tfn-ft v5u align-items-center alert alert-dismissible p-0 fade show"  role="alert">
+ <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     <a href="tel:<?= TFN ?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center">
-        <i class="fa fa-phone ffp" aria-hidden="true"></i>
-        <span><small>Call Us for Free Changes & Cheap Flights Booking</small>
-            <?= TFN ?>
-        </span>
+         <i class="fa fa-phone ffp" aria-hidden="true"></i>
+         <span><small>Call Us for Free Changes & Cheap Flight Booking</small> <?= TFN ?></span>
     </a>
-    <a href="tel:<?= TFN ?>"
-        class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center btnc2 tfnbtnmbl align-items-center">Call
-        Now</a>
-</div>
+    
+    <a href="tel:<?= TFN ?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center btnc2 tfnbtnmbl align-items-center">Call Now</a>
+  </div>
 
 <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
 
@@ -224,21 +184,17 @@
                     <div class="unlock-deal">
                         <h3>Sign in or register to unlock
                             <span>Member Only Deals</span>
-                            and more savings
-                        </h3>
+                            and more savings</h3>
                     </div>
                     <ul>
                         <li>
-                            <i class="fa fa-check" aria-hidden="true"></i> Members get up to 20% off flights and up to
-                            55% off hotels
+                            <i class="fa fa-check" aria-hidden="true"></i> Members get up to 20% off flights and up to 55% off hotels
                         </li>
                         <li>
-                            <i class="fa fa-check" aria-hidden="true"></i> Earn up to 6 points per dollar on every
-                            purchase
+                            <i class="fa fa-check" aria-hidden="true"></i> Earn up to 6 points per dollar on every purchase
                         </li>
                         <li>
-                            <i class="fa fa-check" aria-hidden="true"></i> Big savings with exclusive promo codes and
-                            discounts
+                            <i class="fa fa-check" aria-hidden="true"></i> Big savings with exclusive promo codes and discounts
                         </li>
                     </ul>
 
@@ -263,15 +219,12 @@
                                 <i class="fa fa-unlock-alt" aria-hidden="true"></i>
                             </div>
                             <div class="forgot-link">
-                                <a href="#" onclick="$('#myModal').modal('close');$('#myModal3').modal('open');">Forget
-                                    Password</a>
+                                <a href="#" onclick="$('#myModal').modal('close');$('#myModal3').modal('open');">Forget Password</a>
                                 <button> Sign-in </button>
                             </div>
 
                             <div class="reg-here">
-                                For new registration <a
-                                    onclick="$('#myModal2').modal('open');$('#myModal').modal('close')" href="#">Click
-                                    Here</a>
+                                For new registration <a onclick="$('#myModal2').modal('open');$('#myModal').modal('close')" href="#">Click Here</a>
                             </div>
                         </div>
                     </form>
@@ -298,21 +251,17 @@
                         <h3>Sign in or register to unlock
                             <span>Member Only Deals</span>
 
-                            and more savings
-                        </h3>
+                            and more savings</h3>
                     </div>
                     <ul>
                         <li>
-                            <i class="fa fa-check" aria-hidden="true"></i> Members get up to 20% off flights and up to
-                            55% off hotels
+                            <i class="fa fa-check" aria-hidden="true"></i> Members get up to 20% off flights and up to 55% off hotels
                         </li>
                         <li>
-                            <i class="fa fa-check" aria-hidden="true"></i> Earn up to 6 points per dollar on every
-                            purchase
+                            <i class="fa fa-check" aria-hidden="true"></i> Earn up to 6 points per dollar on every purchase
                         </li>
                         <li>
-                            <i class="fa fa-check" aria-hidden="true"></i> Big savings with exclusive promo codes and
-                            discounts
+                            <i class="fa fa-check" aria-hidden="true"></i> Big savings with exclusive promo codes and discounts
                         </li>
                     </ul>
 
@@ -357,9 +306,7 @@
                                 <button> Sign-up </button>
                             </div>
                             <div class="reg-here">
-                                Already Registered <a
-                                    onclick="$('#myModal2').modal('close');$('#myModal3').modal('open')" href="#">Click
-                                    Here</a>
+                                Already Registered <a onclick="$('#myModal2').modal('close');$('#myModal3').modal('open')" href="#">Click Here</a>
                             </div>
                         </div>
                     </form>
@@ -378,16 +325,12 @@
                     <div class="unlock-deal">
                         <h3>Sign in or register to unlock
                             <span>Member Only Deals</span>
-                            and more savings
-                        </h3>
+                            and more savings</h3>
                     </div>
                     <ul>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Members get up to 20% off flights and up to
-                            55% off hotels</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Earn up to 6 points per dollar on every
-                            purchase</li>
-                        <li><i class="fa fa-check" aria-hidden="true"></i> Big savings with exclusive promo codes and
-                            discounts</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Members get up to 20% off flights and up to 55% off hotels</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Earn up to 6 points per dollar on every purchase</li>
+                        <li><i class="fa fa-check" aria-hidden="true"></i> Big savings with exclusive promo codes and discounts</li>
                     </ul>
                 </div>
                 <div class="right-set">
@@ -454,85 +397,85 @@
 
 
 <script type="text/javascript">
-    $(document).ready(function () {
-        $(".nav-tabs a").click(function () {
+    $(document).ready(function() {
+        $(".nav-tabs a").click(function() {
             $(this).tab('show');
-
+          
         });
-
+        
 
 
     });
-
+    
     $('#cForm, #cForm2').parsley();
-
-
-
-
-
-    $('.rg_btn').submit(function () {
-        $('#gif').show();
-        return true;
-    });
-
-    $('.slddk').owlCarousel({
-        loop: true,
-        margin: 30,
-        lazyLoad: true,
-        autoplay: false,
-        dots: true,
-        nav: true,
-        navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
+    
+    
+    
+    
+    
+    $('.rg_btn').submit(function() {
+     $('#gif').show(); 
+     return true;
+ });
+    
+   $('.slddk').owlCarousel({
+    loop:true,
+    margin:30,
+	lazyLoad: true,
+	 autoplay:false,
+	 dots:true,
+    nav:true,
+	  navText: ["<i class='fa fa-long-arrow-left'></i>","<i class='fa fa-long-arrow-right'></i>"],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
         }
+    }
+	
+	
+	
+}) 
 
-
-
-    })
-
-    $('#owl-carousel2').owlCarousel({
-        loop: true,
-        margin: 16,
-        lazyLoad: true,
-        autoplay: true,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: false
-            },
-            600: {
-                items: 2,
-                nav: false
-            },
-            1000: {
-                items: 3,
-                nav: false,
-                loop: true
-            }
+$('#owl-carousel2').owlCarousel({
+    loop:true,
+    margin:16,
+	lazyLoad:true,
+	autoplay:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:false,
+            loop:true
         }
-    })
-
+    }
+})
+    
 </script>
 
 <script type="text/javascript">
     var jq = $.noConflict();
 
 
-    jq(document).mouseup(function (e) {
+    jq(document).mouseup(function(e) {
 
         var _header = [];
         _header.push('.ulPassenger');
-        jq.each(_header, function (key, value) {
+        jq.each(_header, function(key, value) {
             if (!jq(value).is(e.target) && jq(value).has(e.target).length === 0) {
 
                 jq(value).hide();
@@ -541,7 +484,7 @@
 
 
     });
-    jq(document).ready(function () {
+    jq(document).ready(function() {
 
 
         if (jq().autocomplete) {
@@ -551,7 +494,7 @@
                 mustMatch: false,
                 selectFirst: false,
                 minChars: 3,
-                formatItem: function (value) {
+                formatItem: function(value) {
                     //alert(value);
 
                     var airportcode = value[0].split(',')[0];
@@ -564,7 +507,7 @@
 
                     return countrycode + ", " + airportcode2;
                 },
-                formatResult: function (value) {
+                formatResult: function(value) {
                     //alert(value);
 
                     var airportcode = value[0].split(',')[0];
@@ -579,7 +522,7 @@
                 }
             });
 
-            jq("#flight-from").result(function (event, data, formatted) {
+            jq("#flight-from").result(function(event, data, formatted) {
                 var fin = formatted.split(',')[1];
                 jq("#flight-from2").val(fin.trim());
             });
@@ -590,7 +533,7 @@
                 mustMatch: false,
                 selectFirst: false,
                 minChars: 3,
-                formatItem: function (value) {
+                formatItem: function(value) {
                     //alert(value);
 
                     var airportcode = value[0].split(',')[0];
@@ -603,7 +546,7 @@
 
                     return countrycode + ", " + airportcode2;
                 },
-                formatResult: function (value) {
+                formatResult: function(value) {
                     //alert(value);
 
                     var airportcode = value[0].split(',')[0];
@@ -618,18 +561,18 @@
                 }
             });
 
-            jq("#flight-to").result(function (event, data, formatted) {
+            jq("#flight-to").result(function(event, data, formatted) {
                 var fin = formatted.split(',')[1];
                 jq("#flight-to2").val(fin.trim());
             });
-
+			
 
             jq("#destination").autocomplete("<?= base_url("read") ?>", {
                 autoFill: true,
                 mustMatch: false,
                 selectFirst: false,
                 minChars: 3,
-                formatItem: function (value) {
+                formatItem: function(value) {
 
                     var airportcode = value[0].split(',')[0];
                     var airportcode2 = airportcode.trim();
@@ -638,7 +581,7 @@
                     var countrycode3 = countrycode2.toUpperCase();
                     return countrycode + ", " + airportcode2;
                 },
-                formatResult: function (value) {
+                formatResult: function(value) {
                     var airportcode = value[0].split(',')[0];
                     var airportcode2 = airportcode.trim();
                     var iatacode2 = value[0].split(',')[1];
@@ -647,288 +590,288 @@
                     return airportcode2 + ", " + iatacode2;
                 }
             });
-            jq("#destination").result(function (event, data, formatted) {
+            jq("#destination").result(function(event, data, formatted) {
                 var fin = formatted.split(',')[1];
                 jq("#destination2").val(fin.trim());
+            });
+		
+			
+
+/*
+            jq("#destination").autocomplete("<?= base_url("readHotel") ?>", {
+                autoFill: true,
+                mustMatch: false,
+                selectFirst: false,
+                minChars: 3,
+                formatItem: function(value) {
+
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    var countrycode = value[0].split(',')[1];
+                    var countrycode2 = countrycode.trim();
+                    var countrycode3 = countrycode2.toUpperCase();
+                    return countrycode + ", " + airportcode2;
+                },
+                formatResult: function(value) {
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    var iatacode2 = value[0].split(',')[1];
+                    iatacode2 = iatacode2.trim();
+                    iatacode2 = iatacode2.toUpperCase();
+                    return airportcode2 + ", " + iatacode2;
+                }
+            });
+            jq("#destination").result(function(event, data, formatted) {
+                var fin = formatted.split(',')[1];
+                jq("#destination2").val(fin.trim());
+            });
+*/
+
+            jq("#flight-from-multi1").autocomplete("<?= base_url() ?>read", {
+                autoFill: true,
+                mustMatch: false,
+                selectFirst: false,
+                minChars: 3,
+                formatItem: function(value) {
+                    //alert(value);
+
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
+
+                    var countrycode = value[0].split(',')[1];
+                    var countrycode2 = countrycode.trim();
+                    var countrycode3 = countrycode2.toUpperCase();
+
+                    return countrycode + ", " + airportcode2;
+                },
+                formatResult: function(value) {
+                    //alert(value);
+
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
+
+                    var iatacode2 = value[0].split(',')[1];
+                    iatacode2 = iatacode2.trim();
+                    iatacode2 = iatacode2.toUpperCase();
+
+                    return airportcode2 + ", " + iatacode2;
+                }
+            });
+
+            jq("#flight-from-multi1").result(function(event, data, formatted) {
+                var fin = formatted.split(',')[1];
+                jq("#flight-from2-multi1").val(fin.trim());
+              
             });
 
 
 
-/*
-            jq("#destination").autocomplete("<?= base_url("readHotel") ?>", {
-            autoFill: true,
+
+            jq("#flight-to-multi1").autocomplete("<?= base_url() ?>read", {
+                autoFill: true,
                 mustMatch: false,
-                    selectFirst: false,
-                        minChars: 3,
-                            formatItem: function(value) {
+                selectFirst: false,
+                minChars: 3,
+                formatItem: function(value) {
+                    //alert(value);
 
-                                var airportcode = value[0].split(',')[0];
-                                var airportcode2 = airportcode.trim();
-                                var countrycode = value[0].split(',')[1];
-                                var countrycode2 = countrycode.trim();
-                                var countrycode3 = countrycode2.toUpperCase();
-                                return countrycode + ", " + airportcode2;
-                            },
-            formatResult: function(value) {
-                var airportcode = value[0].split(',')[0];
-                var airportcode2 = airportcode.trim();
-                var iatacode2 = value[0].split(',')[1];
-                iatacode2 = iatacode2.trim();
-                iatacode2 = iatacode2.toUpperCase();
-                return airportcode2 + ", " + iatacode2;
-            }
-        });
-    jq("#destination").result(function (event, data, formatted) {
-        var fin = formatted.split(',')[1];
-        jq("#destination2").val(fin.trim());
-    });
-* /
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-    jq("#flight-from-multi1").autocomplete("<?= base_url() ?>read", {
-        autoFill: true,
-        mustMatch: false,
-        selectFirst: false,
-        minChars: 3,
-        formatItem: function (value) {
-            //alert(value);
+                    var countrycode = value[0].split(',')[1];
+                    var countrycode2 = countrycode.trim();
+                    var countrycode3 = countrycode2.toUpperCase();
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    return countrycode + ", " + airportcode2;
+                },
+                formatResult: function(value) {
+                    //alert(value);
 
-            var countrycode = value[0].split(',')[1];
-            var countrycode2 = countrycode.trim();
-            var countrycode3 = countrycode2.toUpperCase();
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-            return countrycode + ", " + airportcode2;
-        },
-        formatResult: function (value) {
-            //alert(value);
+                    var iatacode2 = value[0].split(',')[1];
+                    iatacode2 = iatacode2.trim();
+                    iatacode2 = iatacode2.toUpperCase();
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    return airportcode2 + ", " + iatacode2;
 
-            var iatacode2 = value[0].split(',')[1];
-            iatacode2 = iatacode2.trim();
-            iatacode2 = iatacode2.toUpperCase();
+                }
+            });
 
-            return airportcode2 + ", " + iatacode2;
-        }
-    });
-
-    jq("#flight-from-multi1").result(function (event, data, formatted) {
-        var fin = formatted.split(',')[1];
-        jq("#flight-from2-multi1").val(fin.trim());
-
-    });
+            jq("#flight-to-multi1").result(function(event, data, formatted) {
+                var fin = formatted.split(',')[1];
+                jq("#flight-to2-multi1").val(fin.trim());
+                jq("#flight-from-multi2").val(formatted);
+                jq("#flight-from2-multi2").val(fin.trim());
+            });
 
 
 
 
-    jq("#flight-to-multi1").autocomplete("<?= base_url() ?>read", {
-        autoFill: true,
-        mustMatch: false,
-        selectFirst: false,
-        minChars: 3,
-        formatItem: function (value) {
-            //alert(value);
+            jq("#flight-from-multi2").autocomplete("<?= base_url() ?>read", {
+                autoFill: true,
+                mustMatch: false,
+                selectFirst: false,
+                minChars: 3,
+                formatItem: function(value) {
+                    //alert(value);
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-            var countrycode = value[0].split(',')[1];
-            var countrycode2 = countrycode.trim();
-            var countrycode3 = countrycode2.toUpperCase();
+                    var countrycode = value[0].split(',')[1];
+                    var countrycode2 = countrycode.trim();
+                    var countrycode3 = countrycode2.toUpperCase();
 
-            return countrycode + ", " + airportcode2;
-        },
-        formatResult: function (value) {
-            //alert(value);
+                    return countrycode + ", " + airportcode2;
+                },
+                formatResult: function(value) {
+                    //alert(value);
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-            var iatacode2 = value[0].split(',')[1];
-            iatacode2 = iatacode2.trim();
-            iatacode2 = iatacode2.toUpperCase();
+                    var iatacode2 = value[0].split(',')[1];
+                    iatacode2 = iatacode2.trim();
+                    iatacode2 = iatacode2.toUpperCase();
 
-            return airportcode2 + ", " + iatacode2;
+                    return airportcode2 + ", " + iatacode2;
+                }
+            });
 
-        }
-    });
-
-    jq("#flight-to-multi1").result(function (event, data, formatted) {
-        var fin = formatted.split(',')[1];
-        jq("#flight-to2-multi1").val(fin.trim());
-        jq("#flight-from-multi2").val(formatted);
-        jq("#flight-from2-multi2").val(fin.trim());
-    });
+            jq("#flight-from-multi2").result(function(event, data, formatted) {
+                var fin = formatted.split(',')[1];
+                jq("#flight-from2-multi2").val(fin.trim());
+            });
 
 
+            jq("#flight-to-multi2").autocomplete("<?= base_url() ?>read", {
+                autoFill: true,
+                mustMatch: false,
+                selectFirst: false,
+                minChars: 3,
+                formatItem: function(value) {
+                    //alert(value);
 
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-    jq("#flight-from-multi2").autocomplete("<?= base_url() ?>read", {
-        autoFill: true,
-        mustMatch: false,
-        selectFirst: false,
-        minChars: 3,
-        formatItem: function (value) {
-            //alert(value);
+                    var countrycode = value[0].split(',')[1];
+                    var countrycode2 = countrycode.trim();
+                    var countrycode3 = countrycode2.toUpperCase();
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    return countrycode + ", " + airportcode2;
+                },
+                formatResult: function(value) {
+                    //alert(value);
 
-            var countrycode = value[0].split(',')[1];
-            var countrycode2 = countrycode.trim();
-            var countrycode3 = countrycode2.toUpperCase();
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-            return countrycode + ", " + airportcode2;
-        },
-        formatResult: function (value) {
-            //alert(value);
+                    var iatacode2 = value[0].split(',')[1];
+                    iatacode2 = iatacode2.trim();
+                    iatacode2 = iatacode2.toUpperCase();
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    return airportcode2 + ", " + iatacode2;
+                }
+            });
 
-            var iatacode2 = value[0].split(',')[1];
-            iatacode2 = iatacode2.trim();
-            iatacode2 = iatacode2.toUpperCase();
-
-            return airportcode2 + ", " + iatacode2;
-        }
-    });
-
-    jq("#flight-from-multi2").result(function (event, data, formatted) {
-        var fin = formatted.split(',')[1];
-        jq("#flight-from2-multi2").val(fin.trim());
-    });
-
-
-    jq("#flight-to-multi2").autocomplete("<?= base_url() ?>read", {
-        autoFill: true,
-        mustMatch: false,
-        selectFirst: false,
-        minChars: 3,
-        formatItem: function (value) {
-            //alert(value);
-
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
-
-            var countrycode = value[0].split(',')[1];
-            var countrycode2 = countrycode.trim();
-            var countrycode3 = countrycode2.toUpperCase();
-
-            return countrycode + ", " + airportcode2;
-        },
-        formatResult: function (value) {
-            //alert(value);
-
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
-
-            var iatacode2 = value[0].split(',')[1];
-            iatacode2 = iatacode2.trim();
-            iatacode2 = iatacode2.toUpperCase();
-
-            return airportcode2 + ", " + iatacode2;
-        }
-    });
-
-    jq("#flight-to-multi2").result(function (event, data, formatted) {
-        var fin = formatted.split(',')[1];
-        jq("#flight-to2-multi2").val(fin.trim());
-        jq("#flight-from-multi3").val(formatted);
-        jq("#flight-from2-multi3").val(fin.trim());
-
-    });
+            jq("#flight-to-multi2").result(function(event, data, formatted) {
+                var fin = formatted.split(',')[1];
+                jq("#flight-to2-multi2").val(fin.trim());
+                jq("#flight-from-multi3").val(formatted);
+                jq("#flight-from2-multi3").val(fin.trim());
+                
+            });
 
 
 
 
-    jq("#flight-from-multi3").autocomplete("<?= base_url() ?>read", {
-        autoFill: true,
-        mustMatch: false,
-        selectFirst: false,
-        minChars: 3,
-        formatItem: function (value) {
-            //alert(value);
+            jq("#flight-from-multi3").autocomplete("<?= base_url() ?>read", {
+                autoFill: true,
+                mustMatch: false,
+                selectFirst: false,
+                minChars: 3,
+                formatItem: function(value) {
+                    //alert(value);
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-            var countrycode = value[0].split(',')[1];
-            var countrycode2 = countrycode.trim();
-            var countrycode3 = countrycode2.toUpperCase();
+                    var countrycode = value[0].split(',')[1];
+                    var countrycode2 = countrycode.trim();
+                    var countrycode3 = countrycode2.toUpperCase();
 
-            return countrycode + ", " + airportcode2;
-        },
-        formatResult: function (value) {
-            //alert(value);
+                    return countrycode + ", " + airportcode2;
+                },
+                formatResult: function(value) {
+                    //alert(value);
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-            var iatacode2 = value[0].split(',')[1];
-            iatacode2 = iatacode2.trim();
-            iatacode2 = iatacode2.toUpperCase();
+                    var iatacode2 = value[0].split(',')[1];
+                    iatacode2 = iatacode2.trim();
+                    iatacode2 = iatacode2.toUpperCase();
 
-            return airportcode2 + ", " + iatacode2;
-        }
-    });
+                    return airportcode2 + ", " + iatacode2;
+                }
+            });
 
-    jq("#flight-from-multi3").result(function (event, data, formatted) {
-        var fin = formatted.split(',')[1];
-        jq("#flight-from2-multi3").val(fin.trim());
-    });
+            jq("#flight-from-multi3").result(function(event, data, formatted) {
+                var fin = formatted.split(',')[1];
+                jq("#flight-from2-multi3").val(fin.trim());
+            });
 
 
-    jq("#flight-to-multi3").autocomplete("<?= base_url() ?>read", {
-        autoFill: true,
-        mustMatch: false,
-        selectFirst: false,
-        minChars: 3,
-        formatItem: function (value) {
-            //alert(value);
+            jq("#flight-to-multi3").autocomplete("<?= base_url() ?>read", {
+                autoFill: true,
+                mustMatch: false,
+                selectFirst: false,
+                minChars: 3,
+                formatItem: function(value) {
+                    //alert(value);
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-            var countrycode = value[0].split(',')[1];
-            var countrycode2 = countrycode.trim();
-            var countrycode3 = countrycode2.toUpperCase();
+                    var countrycode = value[0].split(',')[1];
+                    var countrycode2 = countrycode.trim();
+                    var countrycode3 = countrycode2.toUpperCase();
 
-            return countrycode + ", " + airportcode2;
-        },
-        formatResult: function (value) {
-            //alert(value);
+                    return countrycode + ", " + airportcode2;
+                },
+                formatResult: function(value) {
+                    //alert(value);
 
-            var airportcode = value[0].split(',')[0];
-            var airportcode2 = airportcode.trim();
-            //alert(airportcode2);
+                    var airportcode = value[0].split(',')[0];
+                    var airportcode2 = airportcode.trim();
+                    //alert(airportcode2);
 
-            var iatacode2 = value[0].split(',')[1];
-            iatacode2 = iatacode2.trim();
-            iatacode2 = iatacode2.toUpperCase();
+                    var iatacode2 = value[0].split(',')[1];
+                    iatacode2 = iatacode2.trim();
+                    iatacode2 = iatacode2.toUpperCase();
 
-            return airportcode2 + ", " + iatacode2;
-        }
-    });
+                    return airportcode2 + ", " + iatacode2;
+                }
+            });
 
-    jq("#flight-to-multi3").result(function (event, data, formatted) {
-        var fin = formatted.split(',')[1];
-        jq("#flight-to2-multi3").val(fin.trim());
-    });
+            jq("#flight-to-multi3").result(function(event, data, formatted) {
+                var fin = formatted.split(',')[1];
+                jq("#flight-to2-multi3").val(fin.trim());
+            });
 
         }
         // jq.stickToMe({
@@ -969,34 +912,34 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
 
 <script>
     // on scroll header stick top
-    // When the user scrolls the page, execute myFunction
-    window.onscroll = function () { myFunctions() };
+ // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunctions()};
 
-    // Get the header
-    var header = document.getElementById("header-section");
+// Get the header
+var header = document.getElementById("header-section");
 
-    // Get the offset position of the navbar
-    var sticky = header.offsetTop;
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
 
-    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function myFunctions() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
-    }
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunctions() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 </script>
 
 
 <script type="text/javascript">
-    $(document).ready(function () {
+    $(document).ready(function() {
         var adultar = 1;
         var childar = 0;
         var infantar = 0;
         var seniors = 0;
         $('.count').prop('disabled', true);
-        $(document).on('click', '.plusadt', function () {
+        $(document).on('click', '.plusadt', function() {
             $('.countAdt').val(parseInt($('.countAdt').val()) + 1);
 
             adultar++;
@@ -1008,7 +951,7 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
             $('#sformdata').append("<input name='adult'  value=" + adultar + " type='hidden'/>").val(adultar);
             callme();
         });
-        $(document).on('click', '.minusadt', function () {
+        $(document).on('click', '.minusadt', function() {
             $('.countAdt').val(parseInt($('.countAdt').val()) - 1);
             adultar--;
             if ($('.countAdt').val() == 0) {
@@ -1019,7 +962,7 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
             $('#sformdata').append("<input name='adult' value=" + adultar + "  type='hidden'/>").val(adultar);
             callme();
         });
-        $(document).on('click', '.pluschd', function () {
+        $(document).on('click', '.pluschd', function() {
 
             $('.countChd').val(parseInt($('.countChd').val()) + 1);
             childar++;
@@ -1032,7 +975,7 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
             $('#sformdata').append("<input name='child' value=" + childar + " type='hidden'/>").val(adultar);
             callme();
         });
-        $(document).on('click', '.minuschd', function () {
+        $(document).on('click', '.minuschd', function() {
             $('.countChd').val(parseInt($('.countChd').val()) - 1);
             childar--;
             if ($('.countChd').val() <= 0) {
@@ -1046,7 +989,7 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
 
 
 
-        $(document).on('click', '.minussen', function () {
+        $(document).on('click', '.minussen', function() {
             $('.countSen').val(parseInt($('.countSen').val()) - 1);
             seniors--;
             if ($('.countSen').val() <= 0) {
@@ -1058,7 +1001,7 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
             callme();
         });
 
-        $(document).on('click', '.plussen', function () {
+        $(document).on('click', '.plussen', function() {
             $('.countSen').val(parseInt($('.countSen').val()) + 1);
             seniors++;
             if ($('.countSen').val() > 8) {
@@ -1072,7 +1015,7 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
 
 
 
-        $(document).on('click', '.minusinf', function () {
+        $(document).on('click', '.minusinf', function() {
             $('.countInf').val(parseInt($('.countInf').val()) - 1);
             infantar--;
             if ($('.countInf').val() <= 0) {
@@ -1085,7 +1028,7 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
         });
 
 
-        $(document).on('click', '.plusinf', function () {
+        $(document).on('click', '.plusinf', function() {
             $('.countInf').val(parseInt($('.countInf').val()) + 1);
             infantar++;
             if ($('.countInf').val() > 8) {
@@ -1105,81 +1048,81 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
     });
 </script>
 <script>
-    function showModal() {
-        $('#exampleModalCenter').modal('show');
-    }
-    setTimeout(function () { showModal(); }, 20000);
+   function showModal() {
+       $('#exampleModalCenter').modal('show');
+   }
+   setTimeout(function () { showModal(); }, 10000);
 </script>
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function(){
         // Add down arrow icon for collapse element which is open by default
-        $(".collapse.show").each(function () {
-            $(this).prev(".card-header").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-right");
+        $(".collapse.show").each(function(){
+        	$(this).prev(".card-header").find(".fa").addClass("fa-angle-down").removeClass("fa-angle-right");
         });
-
+        
         // Toggle right and down arrow icon on show hide of collapse element
-        $(".collapse").on('show.bs.collapse', function () {
-            $(this).prev(".card-header").find(".fa").removeClass("fa-angle-right").addClass("fa-angle-down");
-        }).on('hide.bs.collapse', function () {
-            $(this).prev(".card-header").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-right");
+        $(".collapse").on('show.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-angle-right").addClass("fa-angle-down");
+        }).on('hide.bs.collapse', function(){
+        	$(this).prev(".card-header").find(".fa").removeClass("fa-angle-down").addClass("fa-angle-right");
         });
     });
-
+    
 </script>
 
 
 <script>
-    $(".atv").closest(".nav-item").addClass("dwn-arw");
-
-    $('.header-slider').addClass('sfc');
-</script>
-
-
-
-<script>
-    function travelS(pageName, elmnt, color) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("search-content");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tab-sec");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].style = "";
-        }
-        document.getElementById(pageName).style.display = "block";
-        elmnt.style = "color:#5ec834; border-bottom:2px solid #5ec834";
-    }
-
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("activeT").click();
+       $(".atv").closest(".nav-item").addClass("dwn-arw");  
+       
+       $('.header-slider').addClass('sfc');
 </script>
 
 
 
 <script>
-    var str = location.href.toLowerCase();
-    $("#navbarText li a").each(function () {
+   function travelS(pageName,elmnt,color) {
+     var i, tabcontent, tablinks;
+     tabcontent = document.getElementsByClassName("search-content");
+     for (i = 0; i < tabcontent.length; i++) {
+       tabcontent[i].style.display = "none";
+     }
+     tablinks = document.getElementsByClassName("tab-sec");
+     for (i = 0; i < tablinks.length; i++) {
+       tablinks[i].style  = "";
+     }
+     document.getElementById(pageName).style.display = "block";
+     elmnt.style  = "color:#5ec834; border-bottom:2px solid #5ec834";
+   }
+   
+   // Get the element with id="defaultOpen" and click on it
+   document.getElementById("activeT").click();
+</script>
+
+
+
+<script>
+	var str=location.href.toLowerCase();
+    $("#navbarText li a").each(function() {
         if (str.indexOf($(this).attr("href").toLowerCase()) > -1) {
             $("li.atv").removeClass("atv");
             $(this).parent().addClass("atv");
         }
     });
-    $("li.atv").parents().each(function () {
-        if ($(this).is("li a")) {
+    $("li.atv").parents().each(function(){
+        if ($(this).is("li a")){
             $(this).addClass("atv");
         }
     });
-
-
-
-    //  $(document).ready(function(){
-    //    $(".tc-section strong").parents("p").addClass('chp');
-    //     });
+    
+    
+    
+   //  $(document).ready(function(){
+ //    $(".tc-section strong").parents("p").addClass('chp');
+//     });
     $('.content-sec strong').parent('p').addClass('chp');
 
-</script>
+</script> 
 <script>
     $(document).ready(function () {
         $(document).click(function (event) {
@@ -1195,46 +1138,45 @@ if (isset($_GET["signin"]) && isset($_GET["action"]) && $_GET["signin"] == "true
 
 
 <script>
-    $(document).ready(function () {
-        $('.all-content').hide();
+ $(document).ready(function () {
+    $('.all-content').hide();
 
-        $('.content-wrap .readmore').click(function (event) {
-            event.preventDefault();
-            $(this).parent().find('.all-content').slideToggle('slow');
-            $(this).text($(this).text() == 'Read less...' ? 'Read more...' : 'Read less...');
-        });
-
-        //Price Info	
-        $('.price-info').attr('data-bs-toggle', 'tooltip');
-        $('.price-info').attr('data-bs-placement', 'top');
-        $('.price-info').attr('title', 'Fares and availability are subject to change until ticketed.');
-
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-            return new bootstrap.Tooltip(tooltipTriggerEl)
-        })
-
-
+    $('.content-wrap .readmore').click(function (event) {
+        event.preventDefault();
+        $(this).parent().find('.all-content').slideToggle('slow');
+        $(this).text($(this).text() == 'Read less...' ? 'Read more...' : 'Read less...');
     });
+	
+//Price Info	
+$('.price-info').attr('data-bs-toggle', 'tooltip');
+$('.price-info').attr('data-bs-placement', 'top');
+$('.price-info').attr('title', 'Fares and availability are subject to change until ticketed.');
+
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+
+});
 </script>
 <script>
-    $("#search-tab-menu .cabr").click(function () {
-        $("#search-tab-menu .cabr").removeClass("working");
-        $(this).addClass("working");
-        localStorage.ClassName = "working";
-    });
+  $("#search-tab-menu .cabr").click(function(){
+    $("#search-tab-menu .cabr").removeClass("working");
+    $(this).addClass("working");
+    localStorage.ClassName = "working";
+  });
 
-    $(document).ready(function () {
-        SetClass();
-    });
+$(document).ready(function() {
+    SetClass();
+});
 
-    function SetClass() {
-        //before assigning class check local storage if it has any value
-        $("#search-tab-menu .cabr").addClass(localStorage.ClassName);
-    }
+function SetClass() {
+//before assigning class check local storage if it has any value
+    $("#search-tab-menu .cabr").addClass(localStorage.ClassName);
+} 
 
 </script>
 
 </body>
-
 </html>

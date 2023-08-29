@@ -10,7 +10,7 @@ class MainController extends MY_Controller
         parent::__construct();
         $this->load->model("Searching");
         $this->load->helper("airline");
-
+        
     }
 
     public function index()
@@ -50,25 +50,25 @@ class MainController extends MY_Controller
 
     public function read()
     {
-
+        
         // header('Access-Control-Allow-Origin: *');
         // header("Access-Control-Allow-Methods: GET, OPTIONS");
         $q = $this->input->get("q");
-
+        
         $my_data = $this->security->xss_clean($q);
-
+        
         // $con = mysqli_connect("localhost", "soulfulv_root", "Hello@123#", "soulfulv_sabre");
 
         // $sql = "SELECT `code`,`airline` FROM tbl_airline_search WHERE MATCH (`code`,`airline`) AGAINST ('+$my_data*' IN Boolean MODE)";
         // $sql = "SELECT `code`,`airline` FROM tbl_airline_search WHERE `code =` '$my_data'";
-
+        
         // $results = $this->db->query($sql)->result();
-        $results = $this->db->select('code,airline')->from('tbl_airline_search')->where('code', $my_data)->get()->result();
-
+        $results = $this->db->select('code,airline')->from('tbl_airline_search')->where('code',$my_data)->get()->result();
+        
         if (count($results) > 0) {
-
+            
             foreach ($results as $key => $result) {
-
+                
                 $IATAcode = strtoupper(trim($result->code));
                 $Airport = str_ireplace(["// "], "", strtoupper(trim($result->airline)));
                 echo "$Airport, $IATAcode\n";
@@ -84,25 +84,25 @@ class MainController extends MY_Controller
         $this->load->view("contact");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function flights()
     {
         $data = get_data("index.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("flights");
         $this->load->view("includes/front_footer");
-    }
+    } 
 
 
     public function about()
-    {
+    { 
         $data = get_data("index.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("about");
         $this->load->view("includes/front_footer");
     }
 
-
+   
 
     public function privacy()
     {
@@ -111,38 +111,38 @@ class MainController extends MY_Controller
         $this->load->view("privacy");
         $this->load->view("includes/front_footer");
     }
-
-    public function terms()
+    
+     public function terms()
     {
         $data = get_data("index.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("term");
         $this->load->view("includes/front_footer");
     }
-    public function refund()
+ public function refund()
     {
         $data = get_data("index.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("refund");
         $this->load->view("includes/front_footer");
-    }
-
-    public function first_cls_reservation()
+    } 
+    
+ public function first_cls_reservation()
     {
         $data = get_data("first-class-reservation.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("first-class-reservation");
         $this->load->view("includes/front_footer");
-    }
+    } 
 
-    public function business_cls_reservation()
+public function business_cls_reservation()
     {
         $data = get_data("business-class-reservation.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("business-class-reservation");
         $this->load->view("includes/front_footer");
-    }
-
+    } 
+    
     public function group_tvl_reservation()
     {
         $data = get_data("group-travel-reservation.php")[0];
@@ -150,7 +150,7 @@ class MainController extends MY_Controller
         $this->load->view("group-travel-reservation");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function flight_to_orlando()
     {
         $data = get_data("flight-ticket-orlando.php")[0];
@@ -158,7 +158,7 @@ class MainController extends MY_Controller
         $this->load->view("flight-ticket-orlando");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function flight_to_las_vegas()
     {
         $data = get_data("flight-ticket-las-vegas.php")[0];
@@ -166,7 +166,7 @@ class MainController extends MY_Controller
         $this->load->view("flight-ticket-las-vegas");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function flight_to_new_york()
     {
         $data = get_data("flight-ticket-new-york.php")[0];
@@ -174,134 +174,228 @@ class MainController extends MY_Controller
         $this->load->view("flight-ticket-new-york");
         $this->load->view("includes/front_footer");
     }
-
-
-    public function cheap_flight_chicago()
+    
+    
+     public function cheap_flight_chicago()
     {
         $data = get_data("cheap-flight-chicago.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-chicago");
+        $this->load->view("cheap-flight-chicago");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function cheap_flight_dallas()
     {
         $data = get_data("cheap-flight-dallas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-dallas");
+        $this->load->view("cheap-flight-dallas");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function cheap_flight_denver()
     {
         $data = get_data("cheap-flight-denver.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-denver");
+        $this->load->view("cheap-flight-denver");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function cheap_flight_los_angeles()
     {
         $data = get_data("cheap-flight-los-angeles.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles");
+        $this->load->view("cheap-flight-los-angeles");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function cheap_flight_miami()
     {
         $data = get_data("cheap-flight-miami.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-miami");
+        $this->load->view("cheap-flight-miami");
         $this->load->view("includes/front_footer");
     }
-
-
+    
+    
     public function landing_page1()
     {
         $data = get_data("spirit-airlines.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("spirit-airlines");
         $this->load->view("includes/front_footer");
-
+      
     }
-
+    
     public function landing_page2()
     {
         $data = get_data("frontier-airlines.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("frontier-airlines");
         $this->load->view("includes/front_footer");
-
+      
     }
-
-
-
+    
+    public function hawaiian_airlines()
+    {
+        $data = get_data("hawaiian-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("hawaiian-airlines");
+        $this->load->view("includes/front_footer");
+      
+    }
+    
     public function landing_California()
     {
         $data = get_data("cheap-flight-to-california.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-to-california");
+        $this->load->view("cheap-flight-to-california");
         $this->load->view("includes/front_footer");
-
+      
     }
-
+    
     public function landing_alaska()
     {
-
+       
         $data = get_data("cheap-flight-to-alaska.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-to-alaska");
+        $this->load->view("cheap-flight-to-alaska");
         $this->load->view("includes/front_footer");
-
+     
     }
-
+    
     public function site_map()
     {
         $data = get_data("site-map.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("site-map");
         $this->load->view("includes/front_footer");
-
+      
     }
-
+    
     public function success_msg()
     {
         $data = get_data("success.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("success");
         $this->load->view("includes/front_footer");
-
+      
     }
-
+    
     public function user_inquiry()
     {
-
+        
         $data = get_data("user-inquiry.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("user-inquiry");
         $this->load->view("includes/front_footer");
-
+      
     }
-
+    
     public function lp_page()
     {
-
+        
         $data = get_data("lp-page.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("lp-page");
         $this->load->view("includes/front_footer");
-
+      
     }
-
+    
     public function flight_under49()
     {
-
+        
         $data = get_data("book-airline-tickets-under-49.php")[0];
         $this->load->view("includes/front_header", compact("data"));
         $this->load->view("book-airline-tickets-under-49");
         $this->load->view("includes/front_footer");
-
+      
+    }
+    
+    public function flight_under39()
+    {
+        
+        $data = get_data("flight-tickets-under-39.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("flight-tickets-under-39");
+        $this->load->view("includes/front_footer");
+      
+    }
+    
+   
+    
+    public function flight_search()
+    {
+        
+        $data = get_data("flight-search.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("flight-search");
+        $this->load->view("includes/front_footer");
+      
+    }
+    
+    public function hawaiian_flights()
+    {
+        
+        $data = get_data("hawaiian-flights.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("hawaiian-flights");
+        $this->load->view("includes/front_footer");
+      
+    }
+    
+    public function jetblue_flights()
+    {
+        $data = get_data("jetblue-airways.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("jetblue-airways");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function united_flights()
+    {
+        $data = get_data("flights-to-united-states.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("flights-to-united-states");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function allegiant_airlines()
+    {
+        $data = get_data("allegiant-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("allegiant-airlines");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function flights_southwest()
+    {
+        $data = get_data("flights-to-southwest.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("flights-to-southwest");
+        $this->load->view("includes/front_footer");
+    }
+    public function air_canada()
+    {
+        $data = get_data("air-canada.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("air-canada");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function air_france()
+    {
+        $data = get_data("air-france.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("air-france");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function discount_claim()
+    {
+        $data = get_data("discount-and-savings-claim.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("discount-and-savings-claim");
+        $this->load->view("includes/front_footer");
     }
     public function top_destination()
     {
@@ -314,47 +408,34 @@ class MainController extends MY_Controller
     {
         $data = get_data("cheap-flight-tickets.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-tickets");
+        $this->load->view("cheap-flight-tickets");
         $this->load->view("includes/front_footer");
     }
-
-    public function flight_under39()
+    
+    public function spirit_airlines()
     {
-
-        $data = get_data("flight-tickets-under-39.php")[0];
+        $data = get_data("spirit-airlines.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("flight-tickets-under-39");
+        $this->load->view("spirit-airlines");
         $this->load->view("includes/front_footer");
-
     }
-
-
-    public function discount_claim()
+    
+    public function alaska_airlines()
     {
-        $data = get_data("discount-and-savings-claim.php")[0];
+        $data = get_data("alaska-airlines.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("discount-and-savings-claim");
+        $this->load->view("alaska-airlines");
         $this->load->view("includes/front_footer");
     }
-
-    public function flight_search()
+    
+    public function jetblue_airways()
     {
-
-        $data = get_data("flight-search.php")[0];
+        $data = get_data("jetblue-airways.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("flight-search");
-        $this->load->view("includes/front_footer");
-
-    }
-    public function flights_southwest()
-    {
-        $data = get_data("flights-to-southwest.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("flights-to-southwest");
+        $this->load->view("jetblue-airways");
         $this->load->view("includes/front_footer");
     }
-
-
+    
     public function cheap_flight()
     {
         $data = get_data("cheap-flight.php")[0];
@@ -362,54 +443,108 @@ class MainController extends MY_Controller
         $this->load->view("cheap-flight");
         $this->load->view("includes/front_footer");
     }
-    public function cheap_flights()
+    
+    public function aeromexico_airlines()
     {
-        $data = get_data("cheap-flight-booking.php")[0];
+        $data = get_data("aeromexico-airlines.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-booking");
+        $this->load->view("aeromexico-airlines");
         $this->load->view("includes/front_footer");
     }
-
-    public function cheap_flight_tickets()
+    public function volaris()
     {
-        $data = get_data("cheap-flight-tickets.php")[0];
+        $data = get_data("volaris.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-tickets");
+        $this->load->view("volaris");
+        $this->load->view("includes/front_footer");
+    }  
+      public function turkish_airlines()
+    {
+        $data = get_data("turkish-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("turkish-airlines");
+        $this->load->view("includes/front_footer");
+    }   
+     public function singapore_airlines()
+    {
+        $data = get_data("singapore-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("singapore-airlines");
+        $this->load->view("includes/front_footer");
+    }   
+     public function philippine_airlines()
+    {
+        $data = get_data("philippine-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("philippine-airlines");
+        $this->load->view("includes/front_footer");
+    }   
+     public function latam_airlines()
+    {
+        $data = get_data("latam-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("latam-airlines");
+        $this->load->view("includes/front_footer");
+    }   
+    public function iberia_airline()
+    {
+        $data = get_data("iberia-airline.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("iberia-airline");
+        $this->load->view("includes/front_footer");
+    }   
+    public function lot_polish_airlines()
+    {
+        $data = get_data("lot-polish-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("lot-polish-airlines");
+        $this->load->view("includes/front_footer");
+    }   
+
+     public function etihad_airlines()
+    {
+        $data = get_data("etihad-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("etihad-airlines");
+        $this->load->view("includes/front_footer");
+    }    
+    public function copa_airlines()
+    {
+        $data = get_data("copa-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("copa-airlines");
+        $this->load->view("includes/front_footer");
+    }    
+    public function cathay_pacific_airways()
+    {
+        $data = get_data("cathay-pacific-airways.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("cathay-pacific-airways");
+        $this->load->view("includes/front_footer");
+    }   
+     public function all_nippon_airways()
+    {
+        $data = get_data("all-nippon-airways.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("all-nippon-airways");
+        $this->load->view("includes/front_footer");
+    }   
+     public function air_new_zealand()
+    {
+        $data = get_data("air-new-zealand.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("air-new-zealand");
         $this->load->view("includes/front_footer");
     }
-
-    public function flights_under_49()
+    
+    public function flair_airlines()
     {
-        $data = get_data("flights-under-49.php")[0];
+        $data = get_data("flair-airlines.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("flights-under-49");
+        $this->load->view("flair-airlines");
         $this->load->view("includes/front_footer");
     }
-
-    public function flights_under_69()
-    {
-        $data = get_data("flights-under-69.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("flights-under-69");
-        $this->load->view("includes/front_footer");
-    }
-
-    public function flights_under_99()
-    {
-        $data = get_data("flights-under-99.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("flights-under-99");
-        $this->load->view("includes/front_footer");
-    }
-
-    public function flights_under_199()
-    {
-        $data = get_data("flights-under-199.php")[0];
-        $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("flights-under-199");
-        $this->load->view("includes/front_footer");
-    }
-
+    
     public function test_front_page()
     {
         $data = get_data("test-front-page.php")[0];
@@ -417,8 +552,22 @@ class MainController extends MY_Controller
         $this->load->view("test-front-page");
         $this->load->view("includes/front_footer");
     }
-
-
+    
+    public function southwest_airlines()
+    {
+        $data = get_data("southwest-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("southwest-airlines");
+        $this->load->view("includes/front_footer");
+    }
+    
+     public function disclaimer_page()
+    {
+        $data = get_data("disclaimer.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("disclaimer");
+        $this->load->view("includes/front_footer");
+    }
     
     public function front_page()
     {
@@ -427,14 +576,14 @@ class MainController extends MY_Controller
         $this->load->view("front-page");
         $this->load->view("includes/front_footer_test");
     }
-    public function about_usx()
+     public function about_usx()
     {
         $data = get_data("about-usx.php")[0];
         $this->load->view("includes/front_header_test", compact("data"));
         $this->load->view("about-usx");
         $this->load->view("includes/front_footer_test");
     }
-
+    
     public function contact_usx()
     {
         $data = get_data("contact-us2.php")[0];
@@ -442,171 +591,75 @@ class MainController extends MY_Controller
         $this->load->view("contact-usx");
         $this->load->view("includes/front_footer_test");
     }
-
-    // Airlines Pages
-
     
     public function british_airways()
     {
-        $this->load_airline_view("british-airways");
+        $data = get_data("british-airways.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("british-airways");
+        $this->load->view("includes/front_footer");
     }
 
     public function central_mountain_air()
     {
-      $this->load_airline_view('central-mountain-air');
+        $data = get_data("central-mountain-air.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("central-mountain-air");
+        $this->load->view("includes/front_footer");
     }
     public function japan_airlines()
     {
-        $this->load_airline_view("japan-airlines");
+        $data = get_data("japan-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("japan-airlines");
+        $this->load->view("includes/front_footer");
     }
 
     public function asiana_airlines()
     {
-       $this->load_airline_view('asiana-airlines');
+        $data = get_data("asiana-airlines.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("asiana-airlines");
+        $this->load->view("includes/front_footer");
     }
     public function virgin_australia()
     {
-      $this->load_airline_view("virgin-australia");
+        $data = get_data("virgin-australia.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("virgin-australia");
+        $this->load->view("includes/front_footer");
     }
     public function virgin_atlantic_airways()
     {
-        $this->load_airline_view("virgin-atlantic-airways");
-        
-    }
-    public function united_flights()
-    {
-        $this->load_airline_view("united-flights");
-
-    }
-
-    public function allegiant_airlines()
-    {
-        $this->load_airline_view("allegiant-airlines");
-    }
-
-    public function hawaiian_flights()
-    {
-
-        $this->load_airline_view("hawaiian-flights");
-    }
-
-    public function jetblue_flights()
-    {
-        $this->load_airline_view("jetblue-flights");
-    }
-
-
-    public function air_canada()
-    {
-        $this->load_airline_view("air-canada");
-    }
-
-
-    public function air_france()
-    {
-        $this->load_airline_view("air-france");
-    }
-    public function spirit_airlines()
-    {
-        $this->load_airline_view("spirit-airlines");
-    }
-
-    public function alaska_airlines()
-    {
-        $this->load_airline_view("alaska-airlines");
-    }
-
-    public function jetblue_airways()
-    {
-        $this->load_airline_view("jetblue-airways");
-    }
-
-    public function aeromexico_airlines()
-    {
-        $this->load_airline_view("aeromexico-airlines");
-    }
-    public function volaris()
-    {
-        $this->load_airline_view("volaris");
-    }
-    public function turkish_airlines()
-    {
-        $this->load_airline_view("turkish-airlines");
-    }
-    public function singapore_airlines()
-    {
-        $this->load_airline_view("singapore-airlines");
-    }
-    public function philippine_airlines()
-    {
-        $this->load_airline_view("philippine-airlines");
-    }
-    public function latam_airlines()
-    {
-        $this->load_airline_view("latam-airlines");
-    }
-    public function etihad_airlines()
-    {
-        $this->load_airline_view("etihad-airlines");
-    }
-    public function copa_airlines()
-    {
-        $this->load_airline_view("copa-airlines");
-    }
-    public function cathay_pacific_airways()
-    {
-        $this->load_airline_view("cathay-pacific-airways");
-    }
-    public function all_nippon_airways()
-    {
-        $this->load_airline_view("all-nippon-airways");
-    }
-    public function air_new_zealand()
-    {
-        $this->load_airline_view("air-new-zealand");
-    }
-
-    public function flair_airlines()
-    {
-        $this->load_airline_view("flair-airlines");
-    }
-    public function southwest_airlines()
-    {
-        $this->load_airline_view("southwest-airlines");
-        
-    }
-
-    public function qantas_airways()
-    {
-        $this->load_airline_view("qantas-airways");
-    }
-    private function load_airline_view($airlineName)
-    {
-        $data = get_data("$airlineName.php")[0];
-        $viewPath = "airlines/$airlineName";
-
+        $data = get_data("virgin-atlantic-airways.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view($viewPath);
+        $this->load->view("virgin-atlantic-airways");
         $this->load->view("includes/front_footer");
     }
-    public function test()
+    public function qantas_airways()
     {
+        $data = get_data("qantas-airways.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("qantas-airways");
+        $this->load->view("includes/front_footer");
+    }
+    public function test(){
         $data = get_data("central-mountain-air.php")[0];
 
         // Load the Twig library
         // $this->load->library('twig');
-
+        
         $this->twig = new \Kenjis\CI4Twig\Twig();
         // echo '<pre>';
         // print_r($data); // Check the data being passed
         // echo '</pre>';
         // die();
-        $this->config = [
-            'cache' => WRITEPATH . 'cache/twig',
-            'debug' => ENVIRONMENT !== 'production',
-            'autoescape' => 'html',
-        ];
-
+        $this->config = [ 
+            'cache' => WRITEPATH . 'cache/twig', 
+            'debug' => ENVIRONMENT !== 'production', 
+            'autoescape' => 'html', 
+        ]; 
+       
         // Define dynamic data for the template
         $templateData = array(
             'airlineName' => 'British Airways',
@@ -637,7 +690,7 @@ class MainController extends MY_Controller
         $this->load->view("qatar-airways");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function emirates_airlines()
     {
         $data = get_data("emirates-airlines.php")[0];
@@ -645,7 +698,7 @@ class MainController extends MY_Controller
         $this->load->view("emirates-airlines");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function klm_airlines()
     {
         $data = get_data("klm-airlines.php")[0];
@@ -653,7 +706,7 @@ class MainController extends MY_Controller
         $this->load->view("klm-airlines");
         $this->load->view("includes/front_footer");
     }
-
+    
     public function united_airlines()
     {
         $data = get_data("united-airlines.php")[0];
@@ -661,7 +714,7 @@ class MainController extends MY_Controller
         $this->load->view("united-airlines");
         $this->load->view("includes/front_footer_test");
     }
-
+    
     public function lufthansa_airlines()
     {
         $data = get_data("lufthansa-airlines.php")[0];
@@ -669,662 +722,690 @@ class MainController extends MY_Controller
         $this->load->view("lufthansa-airlines");
         $this->load->view("includes/front_footer");
     }
-
-    public function disclaimer_page()
+    
+    public function cheap_flights()
     {
-        $data = get_data("disclaimer.php")[0];
+        $data = get_data("cheap-flight-booking.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("disclaimer");
+        $this->load->view("cheap-flight-booking");
         $this->load->view("includes/front_footer");
     }
-
-
+    
+    public function cheap_flight_tickets()
+    {
+        $data = get_data("cheap-flight-tickets.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("cheap-flight-tickets");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function flights_under_49()
+    {
+        $data = get_data("flights-under-49.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("flights-under-49");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function flights_under_69()
+    {
+        $data = get_data("flights-under-69.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("flights-under-69");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function flights_under_99()
+    {
+        $data = get_data("flights-under-99.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("flights-under-99");
+        $this->load->view("includes/front_footer");
+    }
+    
+    public function flights_under_199()
+    {
+        $data = get_data("flights-under-199.php")[0];
+        $this->load->view("includes/front_header", compact("data"));
+        $this->load->view("flights-under-199");
+        $this->load->view("includes/front_footer");
+    }
     public function cheap_flight_portland_to_denver()
     {
         $data = get_data("cheap-flight-portland-to-denver.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-denver");
+        $this->load->view("cheap-flight-portland-to-denver");
         $this->load->view("includes/front_footer");
     }
-
-    // Destination Pairs
     public function cheap_flight_portland_to_houston()
     {
         $data = get_data("cheap-flight-portland-to-houston.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-houston");
+        $this->load->view("cheap-flight-portland-to-houston");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_portland_to_raleigh_durham()
     {
         $data = get_data("cheap-flight-portland-t0-raleigh-durham.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-raleigh-durham");
+        $this->load->view("cheap-flight-portland-to-raleigh-durham");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_portland_to_san_diego()
     {
         $data = get_data("cheap-flight-portland-to-san-diego.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-san-diego");
+        $this->load->view("cheap-flight-portland-to-san-diego");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_portland_to_orlando()
     {
         $data = get_data("cheap-flight-portland-to-orlando.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-orlando");
+        $this->load->view("cheap-flight-portland-to-orlando");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_portland_to_tampa()
     {
         $data = get_data("cheap-flight-portland-to-tampa.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-tampa");
+        $this->load->view("cheap-flight-portland-to-tampa");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_portland_to_newark_liberty_intl()
     {
         $data = get_data("cheap-flight-portland-to-newark-liberty-intl.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-newark-liberty-intl");
+        $this->load->view("cheap-flight-portland-to-newark-liberty-intl");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_portland_to_las_vegas()
     {
         $data = get_data("cheap-flight-portland-to-las-vegas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-las-vegas");
+        $this->load->view("cheap-flight-portland-to-las-vegas");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_portland_to_atlanta()
     {
         $data = get_data("cheap-flight-portland-to-atlanta.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-portland-to-atlanta");
+        $this->load->view("cheap-flight-portland-to-atlanta");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_las_vegas()
     {
         $data = get_data("cheap-flight-los-angeles-to-las-vegas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-las-vegas");
+        $this->load->view("cheap-flight-los-angeles-to-las-vegas");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_newark_liberty_intl()
     {
         $data = get_data("cheap-flight-los-angeles-to-newark-liberty-intl.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-newark-liberty-intl");
+        $this->load->view("cheap-flight-los-angeles-to-newark-liberty-intl");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_fort_lauderdale()
     {
         $data = get_data("cheap-flight-los-angeles-to-fort-lauderdale.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-fort-lauderdale");
+        $this->load->view("cheap-flight-los-angeles-to-fort-lauderdale");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_houston()
     {
         $data = get_data("cheap-flight-los-angeles-to-houston.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-houston");
+        $this->load->view("cheap-flight-los-angeles-to-houston");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_atlanta()
     {
         $data = get_data("cheap-flight-los-angeles-to-atlanta.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-atlanta");
+        $this->load->view("cheap-flight-los-angeles-to-atlanta");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_dallas()
     {
         $data = get_data("cheap-flight-los-angeles-to-dallas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-dallas");
+        $this->load->view("cheap-flight-los-angeles-to-dallas");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_denver()
     {
         $data = get_data("cheap-flight-los-angeles-to-denver.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-denver");
+        $this->load->view("cheap-flight-los-angeles-to-denver");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_toronto()
     {
         $data = get_data("cheap-flight-los-angeles-to-toronto.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-toronto");
+        $this->load->view("cheap-flight-los-angeles-to-toronto");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_orlando()
     {
         $data = get_data("cheap-flight-phoenix-to-orlando.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-orlando");
+        $this->load->view("cheap-flight-phoenix-to-orlando");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_las_vegas()
     {
         $data = get_data("cheap-flight-phoenix-to-las-vegas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-las-vegas");
+        $this->load->view("cheap-flight-phoenix-to-las-vegas");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_atlanta()
     {
         $data = get_data("cheap-flight-phoenix-to-atlanta.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-atlanta");
+        $this->load->view("cheap-flight-phoenix-to-atlanta");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_denver()
     {
         $data = get_data("cheap-flight-phoenix-to-denver.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-denver");
+        $this->load->view("cheap-flight-phoenix-to-denver");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_fort_lauderdale()
     {
         $data = get_data("cheap-flight-phoenix-to-fort-lauderdale.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-fort-lauderdale");
+        $this->load->view("cheap-flight-phoenix-to-fort-lauderdale");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_toronto()
     {
         $data = get_data("cheap-flight-phoenix-to-toronto.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-toronto");
+        $this->load->view("cheap-flight-phoenix-to-toronto");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_philadelphia()
     {
         $data = get_data("cheap-flight-phoenix-to-philadelphia.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-philadelphia");
+        $this->load->view("cheap-flight-phoenix-to-philadelphia");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_tampa()
     {
         $data = get_data("cheap-flight-phoenix-to-tampa.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-tampa");
+        $this->load->view("cheap-flight-phoenix-to-tampa");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_miami()
     {
         $data = get_data("cheap-flight-phoenix-to-miami.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-miami");
+        $this->load->view("cheap-flight-phoenix-to-miami");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_newark_liberty_intl()
     {
         $data = get_data("cheap-flight-phoenix-to-newark-liberty-intl.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-newark-liberty-intl");
+        $this->load->view("cheap-flight-phoenix-to-newark-liberty-intl");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_houston()
     {
         $data = get_data("cheap-flight-phoenix-to-houston.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-houston");
+        $this->load->view("cheap-flight-phoenix-to-houston");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_dallas()
     {
         $data = get_data("cheap-flight-phoenix-to-dallas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-dallas");
+        $this->load->view("cheap-flight-phoenix-to-dallas");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_edmonton()
     {
         $data = get_data("cheap-flight-phoenix-to-edmonton.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-edmonton");
+        $this->load->view("cheap-flight-phoenix-to-edmonton");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_phoenix_to_san_diego()
     {
         $data = get_data("cheap-flight-phoenix-to-san-diego.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-phoenix-to-san-diego");
+        $this->load->view("cheap-flight-phoenix-to-san-diego");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_las_vegas()
     {
         $data = get_data("cheap-flight-honolulu-to-las-vegas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-las-vegas");
+        $this->load->view("cheap-flight-honolulu-to-las-vegas");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_newark_liberty_intl()
     {
         $data = get_data("cheap-flight-honolulu-to-newark-liberty-intl.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-newark-liberty-intl");
+        $this->load->view("cheap-flight-honolulu-to-newark-liberty-intl");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_san_francisco()
     {
         $data = get_data("cheap-flight-honolulu-to-san-francisco.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-san-francisco");
+        $this->load->view("cheap-flight-honolulu-to-san-francisco");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_los_angeles()
     {
         $data = get_data("cheap-flight-honolulu-to-los-angeles.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-los-angeles");
+        $this->load->view("cheap-flight-honolulu-to-los-angeles");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_seattle()
     {
         $data = get_data("cheap-flight-honolulu-to-seattle.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-seattle");
+        $this->load->view("cheap-flight-honolulu-to-seattle");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_denver()
     {
         $data = get_data("cheap-flight-honolulu-to-denver.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-denver");
+        $this->load->view("cheap-flight-honolulu-to-denver");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_san_diego()
     {
         $data = get_data("cheap-flight-honolulu-to-san-diego.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-san-diego");
+        $this->load->view("cheap-flight-honolulu-to-san-diego");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_tampa()
     {
         $data = get_data("cheap-flight-honolulu-to-tampa.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-tampa");
+        $this->load->view("cheap-flight-honolulu-to-tampa");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_orlando()
     {
         $data = get_data("cheap-flight-honolulu-to-orlando.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-orlando");
+        $this->load->view("cheap-flight-honolulu-to-orlando");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_miami()
     {
         $data = get_data("cheap-flight-honolulu-to-miami.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-miami");
+        $this->load->view("cheap-flight-honolulu-to-miami");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_honolulu_to_new_york()
     {
         $data = get_data("cheap-flight-honolulu-to-new-york.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-honolulu-to-new-york");
+        $this->load->view("cheap-flight-honolulu-to-new-york");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_atlanta()
     {
         $data = get_data("cheap-flight-las-vegas-to-atlanta.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-atlanta");
+        $this->load->view("cheap-flight-las-vegas-to-atlanta");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_dallas()
     {
         $data = get_data("cheap-flight-las-vegas-to-dallas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-dallas");
+        $this->load->view("cheap-flight-las-vegas-to-dallas");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_san_diego()
     {
         $data = get_data("cheap-flight-las-vegas-to-san-diego.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-san-diego");
+        $this->load->view("cheap-flight-las-vegas-to-san-diego");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_raleigh_durham()
     {
         $data = get_data("cheap-flight-las-vegas-to-raleigh-durham.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-raleigh-durham");
+        $this->load->view("cheap-flight-las-vegas-to-raleigh-durham");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_denver()
     {
         $data = get_data("cheap-flight-las-vegas-to-denver.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-denver");
+        $this->load->view("cheap-flight-las-vegas-to-denver");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_houston()
     {
         $data = get_data("cheap-flight-las-vegas-to-houston.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-houston");
+        $this->load->view("cheap-flight-las-vegas-to-houston");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_miami()
     {
         $data = get_data("cheap-flight-las-vegas-to-miami.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-miami");
+        $this->load->view("cheap-flight-las-vegas-to-miami");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_newark_liberty_intl()
     {
         $data = get_data("cheap-flight-las-vegas-to-newark-liberty-intl.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-newark-liberty-intl");
+        $this->load->view("cheap-flight-las-vegas-to-newark-liberty-intl");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_orlando()
     {
         $data = get_data("cheap-flight-las-vegas-to-orlando.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-orlando");
+        $this->load->view("cheap-flight-las-vegas-to-orlando");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_philadelphia()
     {
         $data = get_data("cheap-flight-las-vegas-to-philadelphia.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-philadelphia");
+        $this->load->view("cheap-flight-las-vegas-to-philadelphia");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_phoenix()
     {
         $data = get_data("cheap-flight-las-vegas-to-phoenix.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-phoenix");
+        $this->load->view("cheap-flight-las-vegas-to-phoenix");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_tampa()
     {
         $data = get_data("cheap-flight-las-vegas-to-tampa.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-tampa");
+        $this->load->view("cheap-flight-las-vegas-to-tampa");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_toronto()
     {
         $data = get_data("cheap-flight-las-vegas-to-toronto.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-toronto");
+        $this->load->view("cheap-flight-las-vegas-to-toronto");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_denver_to_los_angeles()
     {
         $data = get_data("cheap-flight-denver-to-los-angeles.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-denver-to-los-angeles");
+        $this->load->view("cheap-flight-denver-to-los-angeles");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_atlanta_to_new_york()
     {
         $data = get_data("cheap-flight-atlanta-to-new-york.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-
-
-        $this->load->view("city_pairs/cheap-flight-atlanta-to-new-york");
+        $this->load->view("cheap-flight-atlanta-to-new-york");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_atlanta_to_ft_lauderdale()
     {
         $data = get_data("cheap-flight-atlanta-to-ft-lauderdale.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-atlanta-to-ft-lauderdale");
+        $this->load->view("cheap-flight-atlanta-to-ft-lauderdale");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_las_vegas_to_los_angeles()
     {
         $data = get_data("cheap-flight-las-vegas-to-los-angeles.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-las-vegas-to-los-angeles");
+        $this->load->view("cheap-flight-las-vegas-to-los-angeles");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_los_angeles_to_seattle()
     {
         $data = get_data("cheap-flight-los-angeles-to-seattle.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-seattle");
+        $this->load->view("cheap-flight-los-angeles-to-seattle");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_atlanta_to_orlando()
     {
         $data = get_data("cheap-flight-atlanta-to-orlando.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-atlanta-to-orlando");
+        $this->load->view("cheap-flight-atlanta-to-orlando");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_francisco_to_orlando()
     {
         $data = get_data("cheap-flight-san-francisco-to-orlando.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-orlando");
+        $this->load->view("cheap-flight-san-francisco-to-orlando");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_francisco_to_phoenix()
     {
         $data = get_data("cheap-flight-san-francisco-to-phoenix.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-phoenix");
+        $this->load->view("cheap-flight-san-francisco-to-phoenix");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_francisco_to_san_diego()
     {
         $data = get_data("cheap-flight-san-francisco-to-san-diego.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-san-diego");
+        $this->load->view("cheap-flight-san-francisco-to-san-diego");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_francisco_to_calgary()
     {
         $data = get_data("cheap-flight-san-francisco-to-calgary.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-calgary");
+        $this->load->view("cheap-flight-san-francisco-to-calgary");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_san_francisco_to_dallas()
     {
         $data = get_data("cheap-flight-san-francisco-to-dallas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-dallas");
+        $this->load->view("cheap-flight-san-francisco-to-dallas");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_san_francisco_to_newark_liberty_intl()
     {
         $data = get_data("cheap-flight-san-francisco-to-newark-liberty-intl.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-newark-liberty-intl");
+        $this->load->view("cheap-flight-san-francisco-to-newark-liberty-intl");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_francisco_to_miami()
     {
         $data = get_data("cheap-flight-san-francisco-to-miami.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-miami");
+        $this->load->view("cheap-flight-san-francisco-to-miami");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_francisco_to_las_vegas()
     {
         $data = get_data("cheap-flight-san-francisco-to-las-vegas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-las-vegas");
+        $this->load->view("cheap-flight-san-francisco-to-las-vegas");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_diego_to_las_vegas()
     {
         $data = get_data("cheap-flight-san-diego-to-las-vegas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-diego-to-las-vegas");
+        $this->load->view("cheap-flight-san-diego-to-las-vegas");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_diego_to_atlanta()
     {
         $data = get_data("cheap-flight-san-diego-to-atlanta.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-diego-to-atlanta");
+        $this->load->view("cheap-flight-san-diego-to-atlanta");
         $this->load->view("includes/front_footer");
-    }
-    public function cheap_flight_san_diego_to_denver()
+    }     public function cheap_flight_san_diego_to_denver()
     {
         $data = get_data("cheap-flight-san-diego-to-denver.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-diego-to-denver");
+        $this->load->view("cheap-flight-san-diego-to-denver");
         $this->load->view("includes/front_footer");
-    }
-    public function cheap_flight_san_diego_to_fort_lauderdale()
+    }     public function cheap_flight_san_diego_to_fort_lauderdale()
     {
         $data = get_data("cheap-flight-san-diego-to-fort-lauderdale.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-diego-to-fort-lauderdale");
+        $this->load->view("cheap-flight-san-diego-to-fort-lauderdale");
         $this->load->view("includes/front_footer");
-    }
-    public function cheap_flight_san_diego_to_newark_liberty_intl()
+    }     public function cheap_flight_san_diego_to_newark_liberty_intl()
     {
         $data = get_data("cheap-flight-san-diego-to-newark-liberty-intl.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-diego-to-newark-liberty-intl");
+        $this->load->view("cheap-flight-san-diego-to-newark-liberty-intl");
         $this->load->view("includes/front_footer");
-    }
-    public function cheap_flight_san_diego_to_philadelphia()
+    }     public function cheap_flight_san_diego_to_philadelphia()
     {
         $data = get_data("cheap-flight-san-diego-to-philadelphia.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-diego-to-philadelphia");
+        $this->load->view("cheap-flight-san-diego-to-philadelphia");
         $this->load->view("includes/front_footer");
-    }
-    public function cheap_flight_san_diego_to_phoenix()
+    }     public function cheap_flight_san_diego_to_phoenix()
     {
         $data = get_data("cheap-flight-san-diego-to-phoenix.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-diego-to-phoenix");
+        $this->load->view("cheap-flight-san-diego-to-phoenix");
         $this->load->view("includes/front_footer");
-    }
-    public function cheap_flight_san_diego_to_tampa()
+    }     public function cheap_flight_san_diego_to_tampa()
     {
         $data = get_data("cheap-flight-san-diego-to-tampa.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-diego-to-tampa");
+        $this->load->view("cheap-flight-san-diego-to-tampa");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_san_francisco_to_denver()
     {
         $data = get_data("cheap-flight-san-francisco-to-denver.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-denver");
+        $this->load->view("cheap-flight-san-francisco-to-denver");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_san_francisco_to_tampa()
     {
         $data = get_data("cheap-flight-san-francisco-to-tampa.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-san-francisco-to-tampa");
+        $this->load->view("cheap-flight-san-francisco-to-tampa");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_los_angeles_to_chicago()
     {
         $data = get_data("cheap-flight-los-angeles-to-chicago.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-chicago");
+        $this->load->view("cheap-flight-los-angeles-to-chicago");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_los_angeles_to_san_francisco()
     {
         $data = get_data("cheap-flight-los-angeles-to-san-francisco.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-los-angeles-to-san-francisco");
+        $this->load->view("cheap-flight-los-angeles-to-san-francisco");
         $this->load->view("includes/front_footer");
-    }
+    } 
     public function cheap_flight_new_york_to_chicago()
     {
         $data = get_data("cheap-flight-new-york-to-chicago.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-new-york-to-chicago");
+        $this->load->view("cheap-flight-new-york-to-chicago");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_new_york_to_los_angeles()
     {
         $data = get_data("cheap-flight-new-york-to-los-angeles.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-new-york-to-los-angeles");
+        $this->load->view("cheap-flight-new-york-to-los-angeles");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_savannah_to_san_diego()
     {
         $data = get_data("cheap-flight-savannah-to-san-diego.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-savannah-to-san-diego");
+        $this->load->view("cheap-flight-savannah-to-san-diego");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_seattle_to_atlanta()
     {
         $data = get_data("cheap-flight-seattle-to-atlanta.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-seattle-to-atlanta");
+        $this->load->view("cheap-flight-seattle-to-atlanta");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_seattle_to_newark_liberty_intl()
     {
         $data = get_data("cheap-flight-seattle-to-newark-liberty-intl.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-seattle-to-newark-liberty-intl");
+        $this->load->view("cheap-flight-seattle-to-newark-liberty-intl");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_seattle_to_houston()
     {
         $data = get_data("cheap-flight-seattle-to-houston.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-seattle-to-houston");
+        $this->load->view("cheap-flight-seattle-to-houston");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_seattle_to_miami()
     {
         $data = get_data("cheap-flight-seattle-to-miami.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-seattle-to-miami");
+        $this->load->view("cheap-flight-seattle-to-miami");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_seattle_to_phoenix()
     {
         $data = get_data("cheap-flight-seattle-to-phoenix.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-seattle-to-phoenix");
+        $this->load->view("cheap-flight-seattle-to-phoenix");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_seattle_to_calgary()
     {
         $data = get_data("cheap-flight-seattle-to-calgary.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-seattle-to-calgary");
+        $this->load->view("cheap-flight-seattle-to-calgary");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_seattle_to_san_diego()
     {
         $data = get_data("cheap-flight-seattle-to-san-diego.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-seattle-to-san-diego");
+        $this->load->view("cheap-flight-seattle-to-san-diego");
         $this->load->view("includes/front_footer");
     }
     public function cheap_flight_seattle_to_dallas()
     {
         $data = get_data("cheap-flight-seattle-to-dallas.php")[0];
         $this->load->view("includes/front_header", compact("data"));
-        $this->load->view("city_pairs/cheap-flight-seattle-to-dallas");
+        $this->load->view("cheap-flight-seattle-to-dallas");
         $this->load->view("includes/front_footer");
     }
 
@@ -1390,7 +1471,7 @@ class MainController extends MY_Controller
         }
     }
 
-
+   
 
     public function payment()
     {
@@ -1427,7 +1508,7 @@ class MainController extends MY_Controller
     private function offlineMail($data)
     {
         $innerdata = "";
-        $html = $this->load->view("airticketOffline", ["data" => $data], TRUE);
+        $html =   $this->load->view("airticketOffline", ["data" => $data], TRUE);
         $post = json_decode($data->request);
         $subject = WEBSITE . "–  ({$post->fname[0]}) – Booking Confirmation # ( {$data->pnr} )";
         $config = array(

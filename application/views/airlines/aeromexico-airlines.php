@@ -3,6 +3,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
 define('Airline', 'AirMexico Airlines');
 define('FROM_LOCATION', 'Mexico City');
 define('FROM_LOCATION_CODE', 'MEX');
+
+
+// Get the current year, month, and day
+$currentYear = date('Y');
+$currentMonth = date('m');
+$currentDay = date('d');
+
+// Calculate the middle day of the month
+$middleDay = ceil(cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear) / 2);
+
+if ($currentDay <= $middleDay) {
+    // Define the OfferDateRange for the first half of the month
+    define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-01")) . " - " . date('d M', strtotime("$currentYear-$currentMonth-$middleDay")));
+} else {
+    // Define the OfferDateRange for the second half of the month
+    define('OfferDateRange', date('d M', strtotime("$currentYear-$currentMonth-" . ($middleDay + 1))) . " - " . date('d M', strtotime("$currentYear-$currentMonth-" . cal_days_in_month(CAL_GREGORIAN, $currentMonth, $currentYear))));
+}
+
 ?>
 <script>
    document.title = "Book Cheap Flight Ticket on <?= Airline ?> | Get Cheap Flight Deal <?= Airline ?> - Airfaremoss";
