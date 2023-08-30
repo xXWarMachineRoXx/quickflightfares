@@ -91,7 +91,7 @@
      <i class="fa fa-phone" aria-hidden="true"></i>
 	 <span>
 	 <b>Call Us:</b><div class="clearfix"></div>
-	 <h5><a href="tel: <?= TFN ?>"> <?= TFN ?></a>
+	 <h5><a href="tel: <?=TFN?>"> <?=TFN?></a>
 <div class="clearfix"></div>
 	 
    </span>
@@ -134,7 +134,7 @@
 </div> <!-- end here footer -->
 <div class="bottom-md-footer text-center py-1">
 <div class="container">
- <p>Quickflightfares its registered office located at Address:117 Windwoods Drive, Collegeville PA 19426, in the state of Pennsylvania (USA).  We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <?= TFN ?> | Email: <?= EMAIL ?> © Copyrights 2023. <?= WEBSITE ?>.</p>      
+ <p>Quickflightfares its registered office located at Address:117 Windwoods Drive, Collegeville PA 19426, in the state of Pennsylvania (USA).  We are available to provide customer support on all days from Monday to Sunday. Customer Service Number: <?=TFN?> | Email: <?= EMAIL ?> © Copyrights 2023. <?= WEBSITE ?>.</p>      
 <ul class="card-option d-flex justify-content-center align-items-center m-0 p-0">
     <li>We Accept All:</li>
 			<li><img src="<?= base_url() ?>frontend/images/visa-card.png" alt="visa card payment options"></li>
@@ -152,21 +152,21 @@
 
 
 <div class="call-tag d-none">
-    <a href="tel:<?= TFN ?>">
+    <a href="tel:<?=TFN?>">
 
-        <i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?>
+        <i class="fa fa-phone" aria-hidden="true"></i> <?=TFN?>
 
     </a>
 </div>
 
 <div class="dm-alertT d-flex justify-content-center tfn-ft v5u align-items-center alert alert-dismissible p-0 fade show"  role="alert">
  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    <a href="tel:<?= TFN ?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center">
+    <a href="tel:<?=TFN?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center">
          <i class="fa fa-phone ffp" aria-hidden="true"></i>
-         <span><small>Call Us for Free Changes & Cheap Flight Booking</small> <?= TFN ?></span>
+         <span><small>Call Us for Free Changes & Cheap Flight Booking</small> <?=TFN?></span>
     </a>
     
-    <a href="tel:<?= TFN ?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center btnc2 tfnbtnmbl align-items-center">Call Now</a>
+    <a href="tel:<?=TFN?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center btnc2 tfnbtnmbl align-items-center">Call Now</a>
   </div>
 
 <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>

@@ -146,12 +146,12 @@ document.getElementsByTagName('meta')["description"].content = "Get ready to tak
 </div>
 <div class="w-md-50 w-100 bg-white px-3">
 <b><span class="airline-name">Airlines</span></b><br> Looking for affordable travel options?
-<div class="for-changes"><a href="tel:<?= TFN ?>">
+<div class="for-changes"><a href="tel:<?=TFN?>">
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Booking</span> 
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Changes</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Cancellation</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Assistance</span>
-<strong></strong></a><strong class="text-center"><a href="tel:<?= TFN ?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i></a></strong>
+<strong></strong></a><strong class="text-center"><a href="tel:<?=TFN?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i></a></strong>
 </div>
 </div>
 </div>
@@ -175,7 +175,7 @@ document.getElementsByTagName('meta')["description"].content = "Get ready to tak
 </ul>
 <h3>Destinations&nbsp;</h3>
 <p>Air France is an International airline serving flight services for the last nine decades. You can fly with France’s flag carriers to more than 200 destinations across the globe. All the major destinations are covered by the airline which will give your decision to choose Air France as your preferred airline a boost.&nbsp;</p>
-<p>Fly to any corner of the world including New York, San Francisco, and Chicago. Connect to <strong>Quickflightfares </strong>will help you guide you to earn <strong>low-cost flights</strong> to the United States or any other <strong>Air France International flight </strong>routes. You can connect us at <strong><?= TFN ?></strong>, the number is kept operational all year round.</p>
+<p>Fly to any corner of the world including New York, San Francisco, and Chicago. Connect to <strong>Quickflightfares </strong>will help you guide you to earn <strong>low-cost flights</strong> to the United States or any other <strong>Air France International flight </strong>routes. You can connect us at <strong><?=TFN?></strong>, the number is kept operational all year round.</p>
 <div class="all-content">
 <h3>Baggage Allowance</h3>
 <p>Air France allows passengers to carry hand luggage, personal items, as well as checked luggage for free based on flight type, ticket category, destination, and membership level. In this section, we go through each allowed baggage regulation and guide you through the <strong>Air France baggage allowance</strong> in layman’s terms.&nbsp;</p>
@@ -224,7 +224,7 @@ document.getElementsByTagName('meta')["description"].content = "Get ready to tak
 </tr>
 </tbody>
 </table>
-<p>To have a window check against queries, talk to our travel experts at <strong><?= TFN ?></strong>, the number is kept operational all year round.</p>
+<p>To have a window check against queries, talk to our travel experts at <strong><?=TFN?></strong>, the number is kept operational all year round.</p>
  </div>
          <a class="readmore stmpbtn" href="#">Read more...</a>
       </div>
@@ -239,7 +239,7 @@ document.getElementsByTagName('meta')["description"].content = "Get ready to tak
             <div class="modal-body">
                  <div class="pdl text-center">Book now and save up to $20!</div>
               <div class="afm-offer-card01 p-3">
-               <a href="tel:<?= TFN ?>" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
+               <a href="tel:<?=TFN?>" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
                   
                   <div class="row align-items-top align-items-center mb-0">
                            <div class="col-md-8 col-9 pl-lg-0">
@@ -248,7 +248,7 @@ document.getElementsByTagName('meta')["description"].content = "Get ready to tak
                            <div class="clearfix"></div>
                            <span class="tcsv">Don't miss out on unbeatable deals.</span>
                            <span class="tcsv tcsv2">Call Now</span>
-                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?></div>
+                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?=TFN?></div>
                         </div>
                      </div>
                      <div class="col-md-4 col-3 offset-sm-1">

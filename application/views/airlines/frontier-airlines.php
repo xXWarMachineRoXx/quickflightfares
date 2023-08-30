@@ -1,7 +1,7 @@
  <script>
  document.title = "Frontier Airlines Flights and Tickets, Online Tickets Booking USA - GoForTaxis";
 document.getElementsByTagName('meta')["keywords"].content = "Airline Booking in USA, Online Tickets Booking USA, Airline Ticket Booking Services, Flight Reservation USA, Aeroplane Ticket Booking, Flight Ticket Rates in USA, Flight Ticket Online, Airline Ticket Prices in USA, Airfare Prices in USA, Air Flight Tickets";
-document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on GoForTaxis. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on GoForTaxis. Book Now! For Booking Call @ <?= TFN ?>.";
+document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on GoForTaxis. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on GoForTaxis. Book Now! For Booking Call @ <?=TFN?>.";
 </script>
 <link rel="stylesheet" href="https://www.gofortaxis.com/frontend/bootsrap_V5/bootstrap.min.css">
  <div id="header-wrapper" class="wrap-inpg flt-udr49 jetblue-flight us-airlines inxbanners header-slider frsld fu49 jtb pb-lg-5 pb-3"  style="background-image: url('frontend/imgl/gft-bg02.jpg') !important;     background-position: bottom !important;">
@@ -540,7 +540,7 @@ document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost
       <div class="modal-body p-5">
        <div class="text-center">
            <div class="airline-name">Frontier Airlines</div>
-	 <a href="tel:<?= TFN ?>"><img src="<?= base_url() ?>frontend/imgl/gofortasis-flights.svg
+	 <a href="tel:<?=TFN?>"><img src="<?= base_url() ?>frontend/imgl/gofortasis-flights.svg
 " class="img-responsive" /></a>
 	  
 	  </div>

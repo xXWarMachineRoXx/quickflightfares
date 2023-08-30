@@ -101,7 +101,7 @@
                         <span>
                             <b>Call Us:</b>
                             <div class="clearfix"></div>
-                            <h5><a href="tel: <?= TFN ?>"> <?= TFN ?></a>
+                            <h5><a href="tel: <?=TFN?>"> <?=TFN?></a>
                                 <div class="clearfix"></div>
 
                         </span>
@@ -166,7 +166,7 @@
         <p> Registered office located at <a href='https://goo.gl/maps/hf3H7X476dM4L8e49'>
                 <?= ADDRESS ?>
             </a>, in the state of Pennsylvania (USA). We are available to provide customer support on all days from
-            Monday to Sunday. <br><a href='tel:<?= TFN ?>'>Customer Service Number: <?= TFN ?></a> | <a
+            Monday to Sunday. <br><a href='tel:<?=TFN?>'>Customer Service Number: <?=TFN?></a> | <a
                 href="mailto:<?= EMAIL ?>">Email: <?= EMAIL ?></a> <br> © Copyrights 2023.
             <?= WEBSITE ?>.
         </p>
@@ -188,10 +188,10 @@
 
 
 <div class="call-tag d-none">
-    <a href="tel:<?= TFN ?>">
+    <a href="tel:<?=TFN?>">
 
         <i class="fa fa-phone" aria-hidden="true"></i>
-        <?= TFN ?>
+        <?=TFN?>
 
     </a>
 </div>
@@ -199,13 +199,13 @@
 <div class="dm-alertT d-flex justify-content-center tfn-ft v5u align-items-center alert alert-dismissible p-0 fade show"
     role="alert">
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    <a href="tel:<?= TFN ?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center">
+    <a href="tel:<?=TFN?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center">
         <i class="fa fa-phone ffp" aria-hidden="true"></i>
         <span><small>Call Us for Free Changes & Cheap Flights Booking</small>
-            <?= TFN ?>
+            <?=TFN?>
         </span>
     </a>
-    <a href="tel:<?= TFN ?>"
+    <a href="tel:<?=TFN?>"
         class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center btnc2 tfnbtnmbl align-items-center">Call
         Now</a>
 </div>

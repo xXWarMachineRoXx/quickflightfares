@@ -59,7 +59,7 @@ document.title = "Book Now Flight Ticket Under $39 | Cheap Flight der $39,  - To
          </div>
         </div>
         <script>
-  gtag('config', 'AW-10814851054/PwmtCOXJzYYDEO6P9qQo', {
+  gtag('config', 'AW-11283177493/cmBBCP_SvMsYEJXAnoQq', {
     'phone_conversion_number': '+1-855-776-8168'
   });
 </script>
@@ -73,7 +73,7 @@ function gtag_report_conversion(url) {
     }
   };
   gtag('event', 'conversion', {
-      'send_to': 'AW-10814851054/hPb2COODnYYDEO6P9qQo',
+      'send_to': 'AW-11283177493/hPb2COODnYYDEO6P9qQo',
       'event_callback': callback
   });
   return false;

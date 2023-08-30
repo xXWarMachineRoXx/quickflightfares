@@ -1,7 +1,7 @@
  <script>
  document.title = "Cheap flight tickets,  Online Tickets  - Flightdealtoday";
 document.getElementsByTagName('meta')["keywords"].content = "Airline Booking in USA, Online Tickets Booking USA, Airline Ticket Booking Services, Flight Reservation USA, Aeroplane Ticket Booking, Flight Ticket Rates in USA, Flight Ticket Online, Airline Ticket Prices in USA, Airfare Prices in USA, Air Flight Tickets";
-document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on Flightdealtoday. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Flightdealtoday. Book Now! For Booking Call @ <?= TFN ?>.";
+document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on Flightdealtoday. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Flightdealtoday. Book Now! For Booking Call @ <?=TFN?>.";
 </script>
 <link rel="stylesheet" href="https://www.flightdealtoday.com/frontend/bootsrap_V5/bootstrap.min.css">
 <link rel="stylesheet" href="https://www.tourcruisers.com/cdn/css/effects.min.css"> 
@@ -35,7 +35,7 @@ document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost
                      
                      
                     <div class="last-min-deal">
-                     <strong>Get maximum discount on flights booking, <span>Use Promo Code <b class="pcode">FDT20</b></span></strong> | <a href="tel:<?= TFN ?>" class="d-lg-flexX nhc">
+                     <strong>Get maximum discount on flights booking, <span>Use Promo Code <b class="pcode">FDT20</b></span></strong> | <a href="tel:<?=TFN?>" class="d-lg-flexX nhc">
                       Need Help?<b> <i class="fa fa-phone ffp" aria-hidden="true"></i> Call Us!</b></a> 
                      </div> 
                      
@@ -47,8 +47,8 @@ document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost
             </div>
          </div>
          <script>
-            gtag('config', 'AW-10814851054/PwmtCOXJzYYDEO6P9qQo', {
-              'phone_conversion_number': '<?= TFN ?>'
+            gtag('config', 'AW-11283177493/cmBBCP_SvMsYEJXAnoQq', {
+              'phone_conversion_number': '<?=TFN?>'
             });
          </script>
          <!-- Event snippet for Mobile Website calls conversion page
@@ -61,7 +61,7 @@ document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost
                 }
               };
               gtag('event', 'conversion', {
-                  'send_to': 'AW-10814851054/hPb2COODnYYDEO6P9qQo',
+                  'send_to': 'AW-11283177493/hPb2COODnYYDEO6P9qQo',
                   'event_callback': callback
               });
               return false;
@@ -367,7 +367,7 @@ Alaska Airlines is a popular airline among passengers. At the heart of this, Ala
      
       <div class="modal-body">
       <div class="text-center">
-	 <a href="tel:<?= TFN ?>"><img src="<?= base_url() ?>frontend/imgl/genric-ad-banner.png
+	 <a href="tel:<?=TFN?>"><img src="<?= base_url() ?>frontend/imgl/genric-ad-banner.png
 " class="img-responsive" /></a>
 	  
 	  </div>
@@ -390,7 +390,7 @@ Alaska Airlines is a popular airline among passengers. At the heart of this, Ala
       </div>
       <div class="modal-body p-0">
        <div class="text-center">
-	 <a href="tel:<?= TFN ?>"><img src="<?= base_url() ?>frontend/imgl/genric-ad-banner.png
+	 <a href="tel:<?=TFN?>"><img src="<?= base_url() ?>frontend/imgl/genric-ad-banner.png
 " class="img-responsive" /></a>
 	  
 	  </div>

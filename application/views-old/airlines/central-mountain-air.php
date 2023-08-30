@@ -7,7 +7,7 @@ define('Airline', 'Central Mountain Air');
 <script>
 document.title = "Book Cheap Flight Ticket on <?= Airline?> | Get Cheap Flight Deal <?=Airline?> - Quickflightfares";       
 document.getElementsByTagName('meta')["keywords"].content = "<?=Airline?>, <?=Airline?> , <?=Airline?> Flights, <?=Airline?> Reservations, <?=Airline?> Booking, <?=Airline?> Flight Deals, <?=Airline?> Flight Tickets, <?=Airline?> Flight Reservations, <?=Airline?> Flight Booking, <?=Airline?> Flight Deals, <?=Airline?> Flight Tickets, <?=Airline?> Flight Reservations, <?=Airline?> Flight Booking, <?=Airline?> Flight Deals, <?=Airline?> Flight Tickets, <?=Airline?> Flight Reservations, <?=Airline?> Flight Booking, <?=Airline?> Flight Deals, <?=Airline?> Flight Tickets, <?=Airline?> Flight Reservations, <?=Airline?> Flight Booking, <?=Airline?> Flight Deals, <?=Airline?> Flight Tickets, <?=Airline?> Flight Reservations, <?=Airline?> Flight Booking, <?=Airline?> Flight Deals, <?=Airline?> Flight Tickets, <?=Airline?> Flight Reservations, <?=Airline?> Flight Booking";";       
-document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <?= TFN ?>";   
+document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <?=TFN?>";   
 </script>
    <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"  style="background-image: url('frontend/images/cma.png'); background-no-repeat: no-repeat; background-size: cover;">
  <?php include 'includes/api-banner.php'; ?>  
@@ -168,7 +168,7 @@ document.getElementsByTagName('meta')["description"].content = "Find cheap fligh
 
 <div class="all-content">
 <h3>Booking Method</h3>
-<p>To book a low-cost flight, passengers must go to the Quickflightfares website. Online flight booking saves money since it may be done without paying a service fee. Nobody needs to travel to the airport to reserve a seat. The most convenient option is to book your <strong>affordable flight tickets online</strong>, but you may also arrange your trip by phoning our reservation number. Call us at <?= TFN ?> to book your flight. To take advantage of the new <strong>low-cost airfare</strong> with all-inclusive facilities, please contact us.&nbsp;</p>
+<p>To book a low-cost flight, passengers must go to the Quickflightfares website. Online flight booking saves money since it may be done without paying a service fee. Nobody needs to travel to the airport to reserve a seat. The most convenient option is to book your <strong>affordable flight tickets online</strong>, but you may also arrange your trip by phoning our reservation number. Call us at <?=TFN?> to book your flight. To take advantage of the new <strong>low-cost airfare</strong> with all-inclusive facilities, please contact us.&nbsp;</p>
 <h3>What distinguishes Quickflightfares as a rare star?</h3>
 <p>Quickflightfares may provide you with happiness and smiles at the lowest cost. There are several inexpensive airlines offers available, and you do not need to look hard for them. Booking in advance will help you save money on plane tickets, as last-minute purchases may incur expensive surcharges. If you are planning a family vacation, be sure to let the travel agent know in advance so they can provide you with better bargains that will give you a lovely trip with cost-saving values. Be with us and enjoy a hassle-free <strong>affordable flight journey</strong>.</p>
          </div>
@@ -184,7 +184,7 @@ document.getElementsByTagName('meta')["description"].content = "Find cheap fligh
             <div class="modal-body">
                  <div class="pdl text-center">Book now and save up to $20!</div>
               <div class="afm-offer-card01 p-3">
-               <a href="tel:<?= TFN ?>" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
+               <a href="tel:<?=TFN?>" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
                   
                   <div class="row align-items-top align-items-center mb-0">
                            <div class="col-md-8 col-9 pl-lg-0">
@@ -193,7 +193,7 @@ document.getElementsByTagName('meta')["description"].content = "Find cheap fligh
                            <div class="clearfix"></div>
                            <span class="tcsv">Don't miss out on unbeatable deals.</span>
                            <span class="tcsv tcsv2">Call Now</span>
-                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?></div>
+                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?=TFN?></div>
                         </div>
                      </div>
                      <div class="col-md-4 col-3 offset-sm-1">

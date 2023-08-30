@@ -1,7 +1,7 @@
 <script>
    document.title = "Flight Tickets Booking, Online Tickets at Low Airfares - quickflightfares";
    document.getElementsByTagName('meta')["keywords"].content = "Airline Booking in USA, Online Tickets Booking USA, Airline Ticket Booking Services, Flight Reservation USA, Aeroplane Ticket Booking, Flight Ticket Rates in USA, Flight Ticket Online, Airline Ticket Prices in USA, Airfare Prices in USA, Air Flight Tickets";
-   document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on quickflightfares. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on quickflightfares. Book Now! For Booking Call @ <?= TFN ?>.";
+   document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on quickflightfares. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on quickflightfares. Book Now! For Booking Call @ <?=TFN?>.";
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"  style="background-image: url('frontend/images/bg.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
  <?php include 'includes/api-banner.php'; ?>  
@@ -32,7 +32,7 @@
 <figure><img class="dimg3" src="<?= base_url() ?>frontend/images/03_travel-expert.jpg" alt="Travel Expert 24/7"></figure>
 <span class="col-x d3">
  <span>For urgent  booking call us &amp; Save Big!</span>
- <h2><a href="tel:<?= TFN ?>"><i class="fa fa-phone ffpX" aria-hidden="true"></i> <?= TFN ?></a></h2>
+ <h2><a href="tel:<?=TFN?>"><i class="fa fa-phone ffpX" aria-hidden="true"></i> <?=TFN?></a></h2>
 </span>
 </li>
 </ul>
@@ -44,7 +44,7 @@
  <div class="container mb-lg-5 mb-4">
     <div class="flight-list">
         <div class="headingtxt mb-3">
-            <h3 class="headh3 txt-ff" data-aos="zoom-out-up">Best Deals For Top Destinations <small>Get Best Price <a href="tel:<?= TFN ?>" style="color:#070dff;
+            <h3 class="headh3 txt-ff" data-aos="zoom-out-up">Best Deals For Top Destinations <small>Get Best Price <a href="tel:<?=TFN?>" style="color:#070dff;
     text-decoration: underline !important;">Deals</a></small></h3>
         </div>
         <div class="row g-3">

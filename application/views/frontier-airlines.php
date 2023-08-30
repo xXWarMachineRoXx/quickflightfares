@@ -1,7 +1,7 @@
 <script>
 document.title = "Book Cheap Flight Ticket on Frontier Airlines | Get Cheap Flight Deal Frontier Airlines - <?= WEBSITE ?>";       
 document.getElementsByTagName('meta')["keywords"].content = "";       
-document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <?= TFN ?>";   
+document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <?=TFN?>";   
 </script>
    <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"  style="background-image: url('frontend/images/bg02.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
  <?php include 'includes/api-banner.php'; ?>  
@@ -151,7 +151,7 @@ document.getElementsByTagName('meta')["description"].content = "Find cheap fligh
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Changes</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Cancellation</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Assistance</span>
-<strong></strong></a><strong class="text-center"><a href="tel:<?= TFN ?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i></a><p>(TOLL-FREE)</p></strong>
+<strong></strong></a><strong class="text-center"><a href="tel:<?=TFN?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i></a><p>(TOLL-FREE)</p></strong>
 </div>
 </div>
 </div>

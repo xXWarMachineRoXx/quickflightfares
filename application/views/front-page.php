@@ -1,7 +1,7 @@
 <script>
    document.title = "Flight Tickets Booking, Online Tickets at Low Airfares - Fareocean";
    document.getElementsByTagName('meta')["keywords"].content = "Airline Booking in USA, Online Tickets Booking USA, Airline Ticket Booking Services, Flight Reservation USA, Aeroplane Ticket Booking, Flight Ticket Rates in USA, Flight Ticket Online, Airline Ticket Prices in USA, Airfare Prices in USA, Air Flight Tickets";
-   document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on Fareocean. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Fareocean. Book Now! For Booking Call @ <?= TFN ?>.";
+   document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on Fareocean. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Fareocean. Book Now! For Booking Call @ <?=TFN?>.";
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"  style="background-image: url('frontend/images/bg3.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
  <?php include 'includes/api-banner.php'; ?>  
@@ -12,7 +12,7 @@
  <div class="container mb-lg-5 mb-4">
     <div class="flight-list">
         <div class="headingtxt mb-3 text-center">
-            <h3 class="headh3 txt-ff">Best Deals For Top Destinations <small>Get Best Price <a href="tel:<?= TFN ?>" style="color:#070dff;
+            <h3 class="headh3 txt-ff">Best Deals For Top Destinations <small>Get Best Price <a href="tel:<?=TFN?>" style="color:#070dff;
     text-decoration: underline !important;">Deals</a></small></h3>
         </div>
         <div class="row g-3">
@@ -228,7 +228,7 @@
             <h3 class="headh3 txt-ff txtc">Call Us For Direct Booking</h3>
 			<span>Book cheap air tickets online for Domestic & International airlines</span>
          </div>
-		 <a href="tel:<?= TFN ?>" class="btn btn-outline-primary d-block col-md-4 mx-auto dbtfn">Book Now</a>
+		 <a href="tel:<?=TFN?>" class="btn btn-outline-primary d-block col-md-4 mx-auto dbtfn">Book Now</a>
  </div>  
  
 <div class="gallery-section gd-index my-md-5 my-3">

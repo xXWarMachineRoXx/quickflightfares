@@ -217,7 +217,7 @@
             <span class="icon ic-phone">
                  <i class="fa fa-phone" aria-hidden="true"></i>
                 <p>For best deal call</p>
-                <a href="tel:<?= TFN ?>"> <?= TFN ?></a> Toll Free
+                <a href="tel:<?=TFN?>"> <?=TFN?></a> Toll Free
             </span>
             <span class="icon ic-phone">
             <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -255,9 +255,9 @@ TRACY CA 95376</p>
 
 
 <div class="call-tag">
-    <a href="tel:<?= TFN ?>">
+    <a href="tel:<?=TFN?>">
 
-        <i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?>
+        <i class="fa fa-phone" aria-hidden="true"></i> <?=TFN?>
 
     </a>
 </div>
@@ -456,7 +456,7 @@ TRACY CA 95376</p>
                                   <div class="call-show">
                                       
                                  <p>CALL US FOR FLIGHT CANCEL | CHANGE FEE </p>
-                                 <a href="tel:<?= TFN ?>">  <img src="<?= base_url() ?>frontend/images/phone-icons.gif" alt="" /> <?= TFN ?></a>
+                                 <a href="tel:<?=TFN?>">  <img src="<?= base_url() ?>frontend/images/phone-icons.gif" alt="" /> <?=TFN?></a>
                                   </div>
                                   <div class="extra-cont">
                                       <h3>Also Help for Flight Cancellation and Fee Waiver As <span> CORONAVIRUS (COVID-19) </span></h3>

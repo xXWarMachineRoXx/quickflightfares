@@ -22,7 +22,7 @@
 <i class="fa fa-check-circle" aria-hidden="true"></i> Cancellation&nbsp;&nbsp; 
 <i class="fa fa-check-circle" aria-hidden="true"></i> Assistance
 </span>
-                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?></div>
+                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?=TFN?></div>
                         </div>
                      </div>
                   </div>
@@ -31,7 +31,7 @@
          </div>
          <div class="col-md-6 mt-3 mt-lg-0">
             <div class="tc-offer-card01">
-               <a href="tel:<?= TFN ?>" class="tfn-url" title="Call us For the best flight offers & deals">
+               <a href="tel:<?=TFN?>" class="tfn-url" title="Call us For the best flight offers & deals">
                   <div class="row align-items-top align-items-center mb-0">
                      <div class="col-lg-4 col-12">
                         <div class="tc-child-div-f">

@@ -41,7 +41,7 @@ defined('R_DATE') or define('R_DATE', "2023-07-30");
 <script>
    document.title = "Book Cheap Flight Ticket on British Airways | Get Cheap Flight Deal British Airways - Quickflightfares";
    document.getElementsByTagName('meta')["keywords"].content = "";
-   document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <?= TFN ?>";   
+   document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <?=TFN?>";   
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
    style="background-image: url('frontend/images/destination.avif'); background-position: 60% center;background-no-repeat: no-repeat; background-size: cover;">
@@ -159,7 +159,7 @@ defined('R_DATE') or define('R_DATE', "2023-07-30");
             since it may be done without paying a service fee. Nobody needs to travel to the airport to reserve a seat.
             The most convenient option is to book your affordable flight tickets online, but you may
             also arrange your trip by phoning our reservation number. Call us at
-            <?= TFN ?> to book your flight. To take advantage of the new low-cost airfare with
+            <?=TFN?> to book your flight. To take advantage of the new low-cost airfare with
             all-inclusive facilities, please contact us.&nbsp;
          
          <h3 class='fw-bold'>What distinguishes Quickflightfares as a rare star?</h3>

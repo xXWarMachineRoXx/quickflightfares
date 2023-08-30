@@ -43,11 +43,11 @@
 
                     <span class="icon ic-phone">
                         <p>For best deal call (Toll-Free)</p>
-                        <a href="tel:<?= TFN ?>"> <?= TFN ?> </a>
+                        <a href="tel:<?=TFN?>"> <?=TFN?> </a>
                     </span> 
                     
               </div>
-<a class="tfn-result-top" href="tel:<?= TFN ?>">Assistance <b><i class="fa fa-phone" aria-hidden="true"></i> Toll-Free</b></a>
+<a class="tfn-result-top" href="tel:<?=TFN?>">Assistance <b><i class="fa fa-phone" aria-hidden="true"></i> Toll-Free</b></a>
                 
             </div>
         </div>

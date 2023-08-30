@@ -487,12 +487,12 @@
         </div>
         <div class="heading">
 
-            <span>Need help, Our 24x7 Toll Free Support: <a href="tel:<?= TFN ?>"><?= TFN ?></a> </span>
+            <span>Need help, Our 24x7 Toll Free Support: <a href="tel:<?=TFN?>"><?=TFN?></a> </span>
         </div>
         <div class="top-detail">
 
             <p>Your Booking is Pending with booking reference number <strong>:<?= $data->pnr ?></strong></p>
-            <p> If any query please contact our customer support at <a href="tel:<?= TFN ?>"><?= TFN ?></a> or send us an email at <a href="mailto:<?= EMAIL_S ?>"><?= EMAIL_S ?></a> and one of our travel expert will be pleased to assist you.In Such unlikely event, if your tickets cannot be processed for any reason you will be notified via email or by telephone and your payment will NOT be processed.</p>
+            <p> If any query please contact our customer support at <a href="tel:<?=TFN?>"><?=TFN?></a> or send us an email at <a href="mailto:<?= EMAIL_S ?>"><?= EMAIL_S ?></a> and one of our travel expert will be pleased to assist you.In Such unlikely event, if your tickets cannot be processed for any reason you will be notified via email or by telephone and your payment will NOT be processed.</p>
         </div>
 
         <div class="table-responsive">
@@ -653,7 +653,7 @@
                     <tr class="del">
                         <td colspan="3"><b><?= WEBSITE ?></b></td>
                         <td><b><?= EMAIL_B ?></b></td>
-                        <td><b><?= TFN ?></b></td>
+                        <td><b><?=TFN?></b></td>
 
                     </tr>
 

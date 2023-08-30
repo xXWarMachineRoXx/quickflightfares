@@ -515,13 +515,13 @@ $AirItianeary = json_decode($form);
 
                                 <div class="right-show-flight mt-3">
 <h3>Call Us for Urgent </h3>
-                                    <a href="tel:<?= TFN ?>">
+                                    <a href="tel:<?=TFN?>">
                                         
 <div class="for-changes p-3">
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Booking</span> 
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Changes/Cancellation</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Assistance</span>
-<strong><a href="tel:<?= TFN ?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i></a></strong>
+<strong><a href="tel:<?=TFN?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i></a></strong>
 </div>
 
                                     </a>

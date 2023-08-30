@@ -33,7 +33,7 @@
 
 
 <div class="call-tag d-none">
-    <a href="tel:<?= TFN ?>"><i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?></a>
+    <a href="tel:<?=TFN?>"><i class="fa fa-phone" aria-hidden="true"></i> <?=TFN?></a>
 </div>
 <div id="myModal" class="signup-pop modal fade " role="dialog">
     <div class="modal-dialog">
@@ -232,7 +232,7 @@
 
   
 <div class='popup d-none' >
-     <a href="tel:<?= TFN ?>"> 
+     <a href="tel:<?=TFN?>"> 
 <div class="cnt223">
         <div class="popup_title">
             <h4>Call Us for Free Chaanges &amp; Cheap Flight Booking <strong>Call Now &amp; Save Big</strong></h4>
@@ -243,9 +243,9 @@
                 <div class="right-info">
                     <div class="call-show">
                         <div class="dm-alertT d-flex justify-content-center tfn-ft">
-    <a href="tel:<?= TFN ?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center">
+    <a href="tel:<?=TFN?>" class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center">
          <i class="fa fa-phone ffp" aria-hidden="true"></i>
-         <span><small>Free Changes or Cancellations (Toll-Free)</small> <?= TFN ?></span>
+         <span><small>Free Changes or Cancellations (Toll-Free)</small> <?=TFN?></span>
            
     </a>
     
@@ -253,9 +253,9 @@
 <div class="dm-alert d-none">
     <button type="button" class="close" data-dismiss="alert">×</button>
    
-   <a href="tel:<?= TFN ?>" class="d-flex"> 
+   <a href="tel:<?=TFN?>" class="d-flex"> 
    <i class="fa fa-phone ffp" aria-hidden="true"></i> 
-   <div><small>Call Us for Free Cahanges &amp; Cheap Flight Booking</small> <?= TFN ?></div>
+   <div><small>Call Us for Free Cahanges &amp; Cheap Flight Booking</small> <?=TFN?></div>
    </a>
   </div>
   </div>

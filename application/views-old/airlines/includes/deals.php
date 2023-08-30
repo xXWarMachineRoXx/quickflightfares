@@ -39,7 +39,7 @@
 
 <div>
 <strong>24h Assistance</strong>
-<span>Call Us <?= TFN ?> - Booking, Changes/Cancellation Or Assistance</span>
+<span>Call Us <?=TFN?> - Booking, Changes/Cancellation Or Assistance</span>
        </div>
        </div>
 	   

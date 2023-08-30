@@ -7,7 +7,7 @@ define('FROM_LOCATION_CODE', 'MEX');
 <script>
    document.title = "Book Cheap Flight Ticket on <?= Airline ?> | Get Cheap Flight Deal <?= Airline ?> - Quickflightfares";
    document.getElementsByTagName('meta')["keywords"].content = "<?= Airline ?>, <?= Airline ?> , <?= Airline ?> Flights, <?= Airline ?> Reservations, <?= Airline ?> Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking, <?= Airline ?> Flight Deals, <?= Airline ?> Flight Tickets, <?= Airline ?> Flight Reservations, <?= Airline ?> Flight Booking"; ";       
-   document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <a href='tel:<?= TFN ?>";'><?= TFN ?></a>    
+   document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <a href='tel:<?=TFN?>";'><?=TFN?></a>    
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
    style="background-image: url('frontend/images/aeromexico.jpg'); background-postion: 5px; background-size: cover;">
@@ -201,7 +201,7 @@ define('FROM_LOCATION_CODE', 'MEX');
          according to their preferences.</p>
       <p>In case you wish to secure a preferred seat at <strong>affordable bargains</strong>, the Quickflightfares
          reservation team is the soundest explanation for you. Reach us at <strong>
-            <a href='tel:<?= TFN ?>'><?= TFN ?></a> 
+            <a href='tel:<?=TFN?>'><?=TFN?></a> 
          </strong> and gain
          <strong>cheap flight tickets</strong> quite effortlessly.
       </p>
@@ -210,7 +210,7 @@ define('FROM_LOCATION_CODE', 'MEX');
          in South America, Asia, North America, Europe, Central America, and multiple others. On some occasions, the
          airline promotes many seasonal flights to various destinations. You can have a gaze at them by contacting
          the Quickflightfares team. Reach us at
-         <a href='tel:<?= TFN ?>'><?= TFN ?></a>  and enjoy <strong>affordable flight deals</strong> to your
+         <a href='tel:<?=TFN?>'><?=TFN?></a>  and enjoy <strong>affordable flight deals</strong> to your
          requested destinations. Get <strong>cheap flight tickets</strong> with minimal compromises with us. We will
          provide you with the opportunity to seize incredible undisclosed deals which help you enjoy the breeze of
          Mexico without tilting Pico de Orizaba.
@@ -227,7 +227,7 @@ define('FROM_LOCATION_CODE', 'MEX');
             passengers to check any bags if the checked baggage does not satisfy the requirements listed. Travelers
             may be required to pay baggage fees based on the fare class and membership level. Speak with the team for
             better deals, you can reach the team at <strong>
-               <a href='tel:<?= TFN ?>.'><?= TFN ?></a> 
+               <a href='tel:<?=TFN?>.'><?=TFN?></a> 
             </strong></p>
          <h3>Check-in Process</h3>
          <p>The check-in facility is available on both platforms:</p>
@@ -251,7 +251,7 @@ define('FROM_LOCATION_CODE', 'MEX');
          <div class="modal-body">
             <div class="pdl text-center">Book now and save up to $20!</div>
             <div class="afm-offer-card01 p-3">
-               <a href="tel:<a href='tel:<?= TFN ?>"'><?= TFN ?></a>  class="tfn-url"
+               <a href="tel:<a href='tel:<?=TFN?>"'><?=TFN?></a>  class="tfn-url"
                   title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
 
                   <div class="row align-items-top align-items-center mb-0">
@@ -262,7 +262,7 @@ define('FROM_LOCATION_CODE', 'MEX');
                            <span class="tcsv">Don't miss out on unbeatable deals.</span>
                            <span class="tcsv tcsv2">Call Now</span>
                            <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i>
-                              <a href='tel:<?= TFN ?>'><?= TFN ?></a> 
+                              <a href='tel:<?=TFN?>'><?=TFN?></a> 
                            </div>
                         </div>
                      </div>

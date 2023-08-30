@@ -64,7 +64,7 @@
             <div class="modal-body">
                <div class="pdl text-center">Book now and save up to $20!</div>
                <div class="afm-offer-card01 p-3">
-                  <a href="tel:<?= TFN ?>" class="tfn-url"
+                  <a href="tel:<?=TFN?>" class="tfn-url"
                      title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
 
                      <div class="row align-items-top align-items-center mb-0">
@@ -75,7 +75,7 @@
                               <span class="tcsv">Don't miss out on unbeatable deals.</span>
                               <span class="tcsv tcsv2">Call Now</span>
                               <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i>
-                                 <?= TFN ?>
+                                 <?=TFN?>
                               </div>
                            </div>
                         </div>

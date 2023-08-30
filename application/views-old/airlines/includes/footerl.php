@@ -40,7 +40,7 @@
      <img src="assets/images/phone-call.png" alt="">
 	 <span>
 	 <b>Call Us:</b><div class="clearfix"></div>
-	 <h5><a href="tel: <?= TFN ?>"> <?= TFN ?></a>,<br>
+	 <h5><a href="tel: <?=TFN?>"> <?=TFN?></a>,<br>
 <div class="clearfix"></div>
 	 
    </span>
@@ -158,7 +158,7 @@
 			<a class="close-button popup-close-button">
 				&times;
 			</a>
-			<a href="tel:<?= TFN ?>"><img src="assets/images/ad-banner2.png" class="img-fluid"></a>
+			<a href="tel:<?=TFN?>"><img src="assets/images/ad-banner2.png" class="img-fluid"></a>
 		</div>
 	</div>
 </div>

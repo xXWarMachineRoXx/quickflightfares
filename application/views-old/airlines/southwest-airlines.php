@@ -151,7 +151,7 @@ document.getElementsByTagName('meta')["description"].content = "Don't miss out o
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Changes</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Cancellation</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Assistance</span>
-<strong></strong></a><strong class="text-center"><a href="tel:<?= TFN ?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i> Toll-Free</a></strong>
+<strong></strong></a><strong class="text-center"><a href="tel:<?=TFN?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i> Toll-Free</a></strong>
 </div>
 </div>
 </div>
@@ -195,7 +195,7 @@ document.getElementsByTagName('meta')["description"].content = "Don't miss out o
             <div class="modal-body">
                  <div class="pdl text-center">Book now and save up to $20!</div>
               <div class="afm-offer-card01 p-3">
-               <a href="tel:<?= TFN ?>" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
+               <a href="tel:<?=TFN?>" class="tfn-url" title="Call Us For Urgent Flights Booking, Changes/Cancellation Or Assistance">
                   
                   <div class="row align-items-top align-items-center mb-0">
                            <div class="col-md-8 col-9 pl-lg-0">
@@ -204,7 +204,7 @@ document.getElementsByTagName('meta')["description"].content = "Don't miss out o
                            <div class="clearfix"></div>
                            <span class="tcsv">Don't miss out on unbeatable deals.</span>
                            <span class="tcsv tcsv2">Call Now</span>
-                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?= TFN ?></div>
+                           <div class="tc-tfn tfnp tfn-no"><i class="fa fa-phone" aria-hidden="true"></i> <?=TFN?></div>
                         </div>
                      </div>
                      <div class="col-md-4 col-3 offset-sm-1">

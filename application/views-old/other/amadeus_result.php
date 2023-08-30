@@ -410,9 +410,9 @@ foreach ($airline_price as $key => $code) {
                                         </div>
                                         <div class="col-md-3 for-call-set">
 
-                                            <a href="tel:<?= TFN ?>">
+                                            <a href="tel:<?=TFN?>">
                                                 <h3>Get unpublished Deals</h3>
-                                                <p>Call: <?= TFN ?></p>
+                                                <p>Call: <?=TFN?></p>
                                             </a>
 
                                         </div>

@@ -2,7 +2,7 @@
 document.title = "Flight Tickets Booking, Online Tickets at Low Airfares - quickflightfares";
 document.getElementsByTagName('meta')["keywords"].content = "Flight Reservation USA,";
 document.getElementsByTagName('meta')["description"].content =
-    "Get Our Low Cost Flight Tickets on quickflightfares. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on quickflightfares. Book Now! For Booking Call @ <?= TFN ?>.";
+    "Get Our Low Cost Flight Tickets on quickflightfares. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on quickflightfares. Book Now! For Booking Call @ <?=TFN?>.";
 </script>
 <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"
     style="background-image: url('frontend/images/bg.jpg'); background-position: center;background-repeat: no-repeat; background-size: cover;">
@@ -233,7 +233,7 @@ document.getElementsByTagName('meta')["description"].content =
                             alt="Travel Expert 24/7"></figure>
                     <span class="col-x d3">
                         <span>For urgent booking call us &amp; Save Big!</span>
-                        <h2><a href="tel:<?= TFN ?>"><i class="fa fa-phone ffpX" aria-hidden="true"></i> <?= TFN ?></a>
+                        <h2><a href="tel:<?=TFN?>"><i class="fa fa-phone ffpX" aria-hidden="true"></i> <?=TFN?></a>
                         </h2>
                     </span>
                 </li>

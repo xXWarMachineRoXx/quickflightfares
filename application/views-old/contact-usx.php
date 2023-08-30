@@ -45,7 +45,7 @@ document.getElementsByTagName('meta')["description"].content = "Skyhyglobal ";
 				<div class="adrs-ico eml"><img src="<?= base_url(); ?>frontend/images/call.png" alt="phone icon"></div>
 				<div class="adrs-txt">
 					<small>Phone (Toll-Free):</small>
-					<p class="subhead2"><a href="tel:<?= TFN ?>"> <?= TFN ?></a><br></p>
+					<p class="subhead2"><a href="tel:<?=TFN?>"> <?=TFN?></a><br></p>
 				</div>
 				<hr class="wt">
 			</div>

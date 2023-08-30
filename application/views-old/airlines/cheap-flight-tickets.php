@@ -1,7 +1,7 @@
  <script>
  document.title = "Cheap flight tickets to , Online Tickets to  - Flightdealtoday";
 document.getElementsByTagName('meta')["keywords"].content = "Airline Booking in USA, Online Tickets Booking USA, Airline Ticket Booking Services, Flight Reservation USA, Aeroplane Ticket Booking, Flight Ticket Rates in USA, Flight Ticket Online, Airline Ticket Prices in USA, Airfare Prices in USA, Air Flight Tickets";
-document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on Flightdealtoday. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Flightdealtoday. Book Now! For Booking Call @ <?= TFN ?>.";
+document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost Flight Tickets on Flightdealtoday. Book Now to Save! Experience Fast, Easy & Secure Flight Booking on Flightdealtoday. Book Now! For Booking Call @ <?=TFN?>.";
 </script>
 <link rel="stylesheet" href="https://www.tourcruisers.com/cdn/css/effects.min.css"> 
 <link rel="stylesheet" href="https://www.tourcruisers.com/cdn/css/lpcustom.css">
@@ -25,11 +25,11 @@ document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost
                      </div>
                   </div>
                   <div class="offset-xl-1 col-lg-5 col-md-12 col-12 d-flex align-items-center">
-                     <a href="tel:<?= TFN ?>">
+                     <a href="tel:<?=TFN?>">
                         <div class="banner-right">
                            <h1>Exclusive offers on flight booking<span style="font-size:36px;color: #322d1d;">Book Latest & Upcoming Cheap Air Tickets</span></h1>
                            <div>
-                     <a href="tel:<?= TFN ?>" class="d-lg-flex d-block">
+                     <a href="tel:<?=TFN?>" class="d-lg-flex d-block">
                      <button class="tfn-btn clr-opn02 mr-lg-3 d-flex justify-content-between align-items-center">
                      <span><small>Call Now for - (Toll-Free)</small> Unpublished Airfares</span>
                      <i class="fa fa-phone ffp" aria-hidden="true"></i>
@@ -43,8 +43,8 @@ document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost
             </div>
          </div>
          <script>
-            gtag('config', 'AW-10814851054/PwmtCOXJzYYDEO6P9qQo', {
-              'phone_conversion_number': '<?= TFN ?>'
+            gtag('config', 'AW-11283177493/cmBBCP_SvMsYEJXAnoQq', {
+              'phone_conversion_number': '<?=TFN?>'
             });
          </script>
          <!-- Event snippet for Mobile Website calls conversion page
@@ -57,7 +57,7 @@ document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost
                 }
               };
               gtag('event', 'conversion', {
-                  'send_to': 'AW-10814851054/hPb2COODnYYDEO6P9qQo',
+                  'send_to': 'AW-11283177493/hPb2COODnYYDEO6P9qQo',
                   'event_callback': callback
               });
               return false;
@@ -232,7 +232,7 @@ Are you a travel enthusiast or someone who is frequently on business tours? Well
      
       <div class="modal-body">
       <div class="text-center">
-	 <a href="tel:<?= TFN ?>"><img src="<?= base_url() ?>frontend/imgl/genric-ad-banner.png
+	 <a href="tel:<?=TFN?>"><img src="<?= base_url() ?>frontend/imgl/genric-ad-banner.png
 " class="img-responsive" /></a>
 	  
 	  </div>

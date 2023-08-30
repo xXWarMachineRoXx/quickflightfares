@@ -13,7 +13,7 @@
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Changes</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Cancellation</span>  
 <span><i class="fa fa-check-circle" aria-hidden="true"></i> Assistance</span>
-<strong></strong></a><strong class=""><a href="tel:<?= TFN ?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i></a><p>(TOLL-FREE)</p></strong>
+<strong></strong></a><strong class=""><a href="tel:<?=TFN?>" class="tfnpay"><i class="fa fa-phone" aria-hidden="true"></i></a><p>(TOLL-FREE)</p></strong>
 </div>
 </div>
 </div>

@@ -1,7 +1,7 @@
 <script>
 document.title = "Book Cheap Flight Ticket on United Airlines | Get Cheap Flight Deal United Airlines - Fareocean";       
 document.getElementsByTagName('meta')["keywords"].content = "";       
-document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <?= TFN ?>";   
+document.getElementsByTagName('meta')["description"].content = "Find cheap flight at Quickflightfares. Get the best fairs With US - call us @ <?=TFN?>";   
 </script>
    <div id="header-wrapper" class="wrap-inpg py-4 py-md-5"  style="background-image: url('frontend/images/united-air.jpg'); background-position: bottom;background-no-repeat: no-repeat; background-size: cover;">
  <?php include 'includes/api-banner.php'; ?>  
@@ -159,7 +159,7 @@ document.getElementsByTagName('meta')["description"].content = "Find cheap fligh
          <div class="headingtxt hdadjt">
             <div class="headh3 txt-ff">United Airlines</div>
          </div>
-<p>Fareocean can aid you in discovering the <strong>cheapest United Airlines flight</strong> for a vacation or business trip. Explore our website and provide some basic information to obtain filtered results and choose the best flight for your needs. Without Fareocean, finding<strong> cheap flight tickets</strong> may be challenging. We'll show you the best flight options to your preferred location. We carefully review any special deals to ensure that you will arrive on time and at a reasonable price. When you stay with us, you can have storage beneath your bed in the region of your choice. Call us at <?= TFN ?> for unpublished and <strong>affordable flight deals</strong>.</p>
+<p>Fareocean can aid you in discovering the <strong>cheapest United Airlines flight</strong> for a vacation or business trip. Explore our website and provide some basic information to obtain filtered results and choose the best flight for your needs. Without Fareocean, finding<strong> cheap flight tickets</strong> may be challenging. We'll show you the best flight options to your preferred location. We carefully review any special deals to ensure that you will arrive on time and at a reasonable price. When you stay with us, you can have storage beneath your bed in the region of your choice. Call us at <?=TFN?> for unpublished and <strong>affordable flight deals</strong>.</p>
 <h3>About</h3>
 <p>United Airlines was first established in 1937, it quickly gained notoriety as a significant domestic player in the aviation sector. With its headquarters in Texas, the little airline grew to become one of the biggest in the nation. It is currently known as United Airlines after being swiftly acquired by UAL Corporation. In 2012, Continental Airlines ceased operations, and United Airlines, which had undergone a rebranding, established a new hub in Chicago. There are many wonderful offers and discounts available for travelers wishing to book flights with United Airlines. Fareocean will find your <strong>cheap flight tickets</strong> without offering you indefinite challenges. We'll show you the best flight options to your preferred location.</p>
 <h3>Reservations</h3>

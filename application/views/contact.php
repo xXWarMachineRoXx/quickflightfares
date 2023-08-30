@@ -95,7 +95,7 @@ document.getElementsByTagName('meta')["description"].content = "<?= WEBSITE ?>";
 				<div class="adrs-ico eml"><img src="<?= base_url(); ?>frontend/images/call.png" alt="phone icon"></div>
 				<div class="adrs-txt">
 					<small>Phone (Toll-Free):</small>
-					<p class="subhead2"><a href="tel:<?= TFN ?>"> <?= TFN ?></a><br></p>
+					<p class="subhead2"><a href="tel:<?=TFN?>"> <?=TFN?></a><br></p>
 				</div>
 				<hr class="wt">
 			</div>
@@ -131,7 +131,7 @@ document.getElementsByTagName('meta')["description"].content = "<?= WEBSITE ?>";
                     
                      <div class="left-sec">
                      <p><strong class="bl-tx">Address:</strong> <?= ADDRESS ?></p>
-                        <a href="tel:<?= TFN ?>"><strong>Toll Free:</strong> <?= TFN ?></a><br>
+                        <a href="tel:<?=TFN?>"><strong>Toll Free:</strong> <?=TFN?></a><br>
                          <a href="mailto:<?= EMAIL_SER ?>"><strong>Email:</strong> <?= EMAIL_SER ?></a>
                      </div>
 

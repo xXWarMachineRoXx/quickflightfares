@@ -1,7 +1,7 @@
 
 <div class="white-space fixed-bottom">
 <div class="p-2 text-center tfn-bottom-section">
-<small>Call Us for <span>Booking</span>, <span>Changes/Cancellation</span> Or <span>Assistance</span>:</small> <strong><a href="tel:<?= TFN ?>"><i class="fa fa-phone" aria-hidden="true"></i></a></strong>
+<small>Call Us for <span>Booking</span>, <span>Changes/Cancellation</span> Or <span>Assistance</span>:</small> <strong><a href="tel:<?=TFN?>"><i class="fa fa-phone" aria-hidden="true"></i></a></strong>
 </div>
 </div>
 

@@ -4,7 +4,7 @@
 <title>Online cheap flights ticket booking - Skyhyglobal</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="Online cheap flights ticket booking Online flights ticket booking, Cheap flights ticket booking, flights ticket booking, flights booking, Online cheap flights, Cheap flights tickets, Online flights booking" />
-<meta name="description" content="Online Cheap Flights Ticket Booking. Lowest Fares & Best Travel Deals.24/7 Hours Travel Experts Support. Book Now at skyhyglobal. For booking information call us @<?= TFN ?> Or Mail us - <?= MAIL ?>">
+<meta name="description" content="Online Cheap Flights Ticket Booking. Lowest Fares & Best Travel Deals.24/7 Hours Travel Experts Support. Book Now at skyhyglobal. For booking information call us @<?=TFN?> Or Mail us - <?= MAIL ?>">
 <link rel=“canonical” href=“https://www.skyhyglobal.com” />
 <!--      <link href="<?= base_url() ?>frontend/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>-->
 <link rel="stylesheet" href="<?= base_url() ?>frontend/bootsrap_V5/bootstrap.min.css">
@@ -41,7 +41,7 @@
                 </button>
                 <a class="navbar-brand" href="#"><img onclick="window.location.href='<?= base_url() ?>'" src="<?= base_url() ?>frontend/images/logo-fo.png" alt="Fareocean logo"/></a>
                 <div class="callnow">
-                <a class="d-flex" href="tel:<?= TFN ?>">
+                <a class="d-flex" href="tel:<?=TFN?>">
                     <i class="fa fa-phone ffp" aria-hidden="true"></i>
                 <div class="hdrtxt">Call Now</div>
                 </a>
@@ -54,7 +54,7 @@
                         <li class="nav-item"><a class="nav-link" href="<?= base_url() ?>contact-us">Contact Us</a></li>
                         <li class="nav-item dn-c d-lp"><a class="nav-link" href="<?= base_url() ?>site-map">Site Map</a></li>
                    </ul>
-                        <div class='calln d-flex align-items-center'><span class='call-right'>24*7 Hours Travel Services<br> <a href='tel:<?= TFN ?>'><?= TFN ?></a></span></div>
+                        <div class='calln d-flex align-items-center'><span class='call-right'>24*7 Hours Travel Services<br> <a href='tel:<?=TFN?>'><?=TFN?></a></span></div>
                         </div>
                         </nav>
                         </div>

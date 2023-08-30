@@ -46,7 +46,7 @@
                  <img onclick="window.location.href='<?= base_url() ?>'" src="<?= base_url() ?>frontend/img/logo.png" alt="tourcruiser logo"/>
              </div>
              
-             <div class="callnow"><a class="d-flex" href="tel:<?= TFN ?>"> <img class="blink" src="<?= base_url() ?>media/images/call.png" alt="For best deal call"/> <span>Call (Toll Free)<br><?= TFN ?></span> </a></div>
+             <div class="callnow"><a class="d-flex" href="tel:<?=TFN?>"> <img class="blink" src="<?= base_url() ?>media/images/call.png" alt="For best deal call"/> <span>Call (Toll Free)<br><?=TFN?></span> </a></div>
             
              <nav class="navbar navbar-expand-lg navbar-light ">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
