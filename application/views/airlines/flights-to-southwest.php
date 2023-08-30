@@ -47,22 +47,7 @@ document.getElementsByTagName('meta')["description"].content = "Get Our Low Cost
     'phone_conversion_number': '<?=TFN?>'
   });
 </script>
-<!-- Event snippet for Mobile Website calls conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-11283177493/hPb2COODnYYDEO6P9qQo',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
+<!-- Event snippet for Call from Mobile Website conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-11283177493/cmBBCP_SvMsYEJXAnoQq', 'event_callback': callback }); return false; } </script>
 
     </header>
 
